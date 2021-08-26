@@ -83,12 +83,12 @@ export default function Home() {
         </section>
         <div
           className={
-            "bg-gradient-to-r from-primary-400 to-pink-500 h-24 w-full -skew-y-3 translate-y-10"
+            "bg-gradient-to-r from-primary-400 to-pink-400 h-24 w-full -skew-y-3 translate-y-10"
           }
         />
         <section
           className={
-            "bg-gradient-to-r from-primary-400 to-pink-500 pt-24 pb-36"
+            "bg-gradient-to-r from-primary-400 to-pink-400 pt-24 pb-36"
           }
         >
           <div className={"max-w-5xl w-full mx-auto"}>
@@ -96,7 +96,7 @@ export default function Home() {
             <div className={"grid grid-cols-2 gap-8"}>
               <div
                 className={
-                  "border-2 border-pink-800 bg-pink-800/80 text-primary-100 hover:bg-pink-200/40 hover:text-pink-800 duration-150 py-8 px-4 rounded-md shadow-lg"
+                  "border-2 border-pink-800 bg-pink-800/80 text-primary-100 hover:bg-pink-100/40 hover:text-pink-800 duration-150 py-8 px-4 rounded-md shadow-lg"
                 }
               >
                 <h3 className={"text-xl font-medium"}>1st place</h3>
@@ -104,7 +104,7 @@ export default function Home() {
               </div>
               <div
                 className={
-                  "border-2 border-pink-800 bg-pink-800/80 text-primary-100 hover:bg-pink-200/40 hover:text-pink-800 duration-150 py-8 px-4 rounded-md shadow-lg"
+                  "border-2 border-pink-800 bg-pink-800/80 text-primary-100 hover:bg-pink-100/40 hover:text-pink-800 duration-150 py-8 px-4 rounded-md shadow-lg"
                 }
               >
                 <h3 className={"text-xl font-medium"}>2nd place</h3>
@@ -112,7 +112,7 @@ export default function Home() {
               </div>
               <div
                 className={
-                  "border-2 border-pink-800 bg-pink-800/80 text-primary-100 hover:bg-pink-200/40 hover:text-pink-800 duration-150 py-8 px-4 rounded-md shadow-lg"
+                  "border-2 border-pink-800 bg-pink-800/80 text-primary-100 hover:bg-pink-100/40 hover:text-pink-800 duration-150 py-8 px-4 rounded-md shadow-lg"
                 }
               >
                 <h3 className={"text-xl font-medium"}>3rd place</h3>
