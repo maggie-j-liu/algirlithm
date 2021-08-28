@@ -9,12 +9,19 @@ const Navbar = () => {
       <div className={"w-full px-16 h-full"}>
         <div
           className={
-            "max-w-5xl w-full mx-auto flex items-center justify-between h-full"
+            "max-w-4xl w-full mx-auto flex items-center justify-between h-full text-white font-bold"
           }
         >
-          <Link href={"/"}>
-            <a className={"text-white font-bold"}>Algirlithm</a>
-          </Link>
+          <div>
+            <Link href={"/"}>
+              <a>alGIRLithm</a>
+            </Link>
+          </div>
+          <div className={"font-medium"}>
+            <Link href={"/logistics"}>
+              <a>logistics</a>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
