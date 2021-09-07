@@ -56,6 +56,13 @@ const About = () => {
             ))}
           </div>
         </Section>
+        <Section>
+          <Subtitle>Contact Us</Subtitle>
+          <p className={"text-xl"}>
+            If you would like to help out with organizing the contest, fill out
+            this form here.
+          </p>
+        </Section>
       </div>
     </main>
   );
