@@ -81,7 +81,7 @@ const Home = () => {
                 doloremque autem.
               </p>
             </div>
-            <div className={"h-96 w-80 bg-primary-400 flex-shrink-0"}>
+            <div className={"h-96 w-80 bg-primary-400 flex-shrink-0 text-base"}>
               some image
             </div>
           </div>
@@ -105,7 +105,7 @@ const Home = () => {
                 }
               >
                 <h3 className={"text-xl font-medium"}>1st place</h3>
-                <p className={"text-center"}>image / name of prize</p>
+                <p className={"text-center text-base"}>image / name of prize</p>
               </div>
               <div
                 className={
@@ -113,7 +113,7 @@ const Home = () => {
                 }
               >
                 <h3 className={"text-xl font-medium"}>2nd place</h3>
-                <p className={"text-center"}>image / name of prize</p>
+                <p className={"text-center text-base"}>image / name of prize</p>
               </div>
               <div
                 className={
@@ -121,7 +121,7 @@ const Home = () => {
                 }
               >
                 <h3 className={"text-xl font-medium"}>3rd place</h3>
-                <p className={"text-center"}>image / name of prize</p>
+                <p className={"text-center text-base"}>image / name of prize</p>
               </div>
             </div>
           </div>
@@ -145,25 +145,25 @@ const Home = () => {
             </p>
             <div className={"grid grid-cols-3 gap-8"}>
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center"}>image</p>
+                <p className={"text-center text-base"}>image</p>
                 <h3 className={"text-lg font-medium text-center"}>
                   sponsor name
                 </h3>
               </div>
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center"}>image</p>
+                <p className={"text-center text-base"}>image</p>
                 <h3 className={"text-lg font-medium text-center"}>
                   sponsor name
                 </h3>
               </div>
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center"}>image</p>
+                <p className={"text-center text-base"}>image</p>
                 <h3 className={"text-lg font-medium text-center"}>
                   sponsor name
                 </h3>
               </div>
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center"}>image</p>
+                <p className={"text-center text-base"}>image</p>
                 <h3 className={"text-lg font-medium text-center"}>
                   sponsor name
                 </h3>

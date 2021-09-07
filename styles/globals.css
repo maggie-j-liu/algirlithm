@@ -6,6 +6,9 @@
   ::selection {
     @apply bg-primary-400 text-white;
   }
+  p {
+    @apply text-xl;
+  }
 }
 
 @layer utilities {
