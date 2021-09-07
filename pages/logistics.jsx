@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Section from "@/components/Section";
+import { Title, Subtitle } from "@/components/Titles";
 
 const Logistics = () => {
   return (
@@ -24,44 +26,28 @@ const Logistics = () => {
         }
       />
       <div className={"relative"}>
-        <section className={"px-24 pt-36 pb-28"}>
-          <div className={"w-full max-w-4xl mx-auto"}>
-            <h1 className={"text-5xl font-extrabold text-primary-500"}>
-              logistics
-            </h1>
-          </div>
-        </section>
-        <section className={"pt-24 pb-36"}>
-          <div className={"max-w-4xl w-full mx-auto"}>
-            <h2 className={"text-4xl font-medium mb-4"}>Registration</h2>
-            <p className={"text-xl"}>
-              Fill out this form to register for the contest.
-            </p>
-          </div>
-        </section>
-        <section>
-          <div
-            className={
-              "w-full max-w-4xl mx-auto py-16 flex gap-16 items-center"
-            }
-          >
-            <div>
-              <h2 className={"text-4xl font-medium mb-4"}>Schedule</h2>
-              <p className={"text-xl leading-relaxed text-gray-600"}>
-                schedule here
-              </p>
-            </div>
-          </div>
-        </section>
+        <Section>
+          <Title>logistics</Title>
+        </Section>
+        <Section>
+          <Subtitle>Registration</Subtitle>
+          <p className={"text-xl"}>
+            Fill out this form to register for the contest.
+          </p>
+        </Section>
+        <Section>
+          <Subtitle>Schedule</Subtitle>
+          <p className={"text-xl leading-relaxed text-gray-600"}>
+            schedule here
+          </p>
+        </Section>
 
-        <section className={"py-24"}>
-          <div className={"max-w-4xl w-full mx-auto"}>
-            <h2 className={"text-4xl font-medium mb-4"}>Contest Format</h2>
-            <p className={"text-xl"}>
-              allowed languages, number of problems, scoring
-            </p>
-          </div>
-        </section>
+        <Section>
+          <Subtitle>Contest Format</Subtitle>
+          <p className={"text-xl"}>
+            allowed languages, number of problems, scoring
+          </p>
+        </Section>
       </div>
     </main>
   );

@@ -17,9 +17,12 @@ const Navbar = () => {
               <a>alGIRLithm</a>
             </Link>
           </div>
-          <div className={"font-medium"}>
+          <div className={"font-medium space-x-4"}>
             <Link href={"/logistics"}>
               <a>logistics</a>
+            </Link>
+            <Link href={"/about"}>
+              <a>about</a>
             </Link>
           </div>
         </div>

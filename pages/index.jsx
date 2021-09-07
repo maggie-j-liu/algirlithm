@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Section from "@/components/Section";
 
 const Home = () => {
   return (
@@ -8,15 +9,19 @@ const Home = () => {
         <meta name="description" content="Algirlithm" />
       </Head>
       <main>
-        <section className={"px-24 pt-36 pb-28 bg-primary-100"}>
+        <section
+          className={"px-16 sm:px-20 md:px-24 pt-36 pb-28 bg-primary-100"}
+        >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
               date here
             </h2>
-            <h1 className={"text-8xl font-extrabold text-primary-500"}>
+            <h1
+              className={"text-6xl md:text-8xl font-extrabold text-primary-500"}
+            >
               al<span className={"font-black"}>GIRL</span>ithm.
             </h1>
-            <h2 className={"text-4xl mt-4"}>
+            <h2 className={"text-2xl md:text-4xl mt-4"}>
               A programming contest for high school girls...
             </h2>
             <button
@@ -41,7 +46,7 @@ const Home = () => {
             }
           />
         </div>
-        <section>
+        <section className={"px-16 sm:px-20 md:px-24"}>
           <div
             className={
               "w-full max-w-4xl mx-auto py-16 flex gap-16 items-center"
@@ -88,7 +93,7 @@ const Home = () => {
         />
         <section
           className={
-            "bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36"
+            "px-16 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36"
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
@@ -128,7 +133,7 @@ const Home = () => {
         />
         <section
           className={
-            "bg-gradient-to-r from-secondary-200 to-primary-200 py-24 -mt-20"
+            "px-16 sm:px-20 md:px-24 bg-gradient-to-r from-secondary-200 to-primary-200 py-24 -mt-20"
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
