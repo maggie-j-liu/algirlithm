@@ -34,15 +34,15 @@ const Home = () => {
           </div>
         </section>
         <div className={"-translate-y-10"}>
-          <div className={"bg-primary-100 h-8 w-full -skew-y-3"} />
+          <div className={"bg-primary-100 h-8 w-full -skew-y-3 2xl:skew-y-0"} />
           <div
             className={
-              "bg-gradient-to-r from-secondary-200 to-primary-200 h-6 w-full -skew-y-3"
+              "bg-gradient-to-r from-secondary-200 to-primary-200 h-6 w-full -skew-y-3 2xl:skew-y-0"
             }
           />
           <div
             className={
-              "bg-gradient-to-r from-primary-300 to-secondary-300 h-6 w-full -skew-y-3"
+              "bg-gradient-to-r from-primary-300 to-secondary-300 h-6 w-full -skew-y-3 2xl:skew-y-0"
             }
           />
         </div>
@@ -88,7 +88,7 @@ const Home = () => {
         </section>
         <div
           className={
-            "bg-gradient-to-r from-primary-400 to-secondary-400 h-24 w-full -skew-y-3 translate-y-10"
+            "bg-gradient-to-r from-primary-400 to-secondary-400 h-24 w-full -skew-y-3 2xl:skew-y-0 translate-y-10"
           }
         />
         <section
@@ -128,7 +128,7 @@ const Home = () => {
         </section>
         <div
           className={
-            "bg-gradient-to-r from-secondary-200 to-primary-200 h-24 w-full -skew-y-3 -translate-y-10"
+            "bg-gradient-to-r from-secondary-200 to-primary-200 h-24 w-full -skew-y-3 2xl:skew-y-0 -translate-y-10"
           }
         />
         <section
