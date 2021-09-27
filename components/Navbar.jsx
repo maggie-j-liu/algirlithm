@@ -17,7 +17,12 @@ const Navbar = () => {
           <div className={"pt-2"}>
             <Link href={"/"}>
               <a>
-                <Image src={logo} height="40" width="245" />
+                <Image
+                  src={logo}
+                  height="40"
+                  width="245"
+                  alt="alGIRLithm logo"
+                />
               </a>
             </Link>
           </div>

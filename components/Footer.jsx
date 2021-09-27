@@ -17,7 +17,7 @@ const Footer = () => {
         <div className={"space-y-2"}>
           <h3 className={"font-bold mb-4"}>Register</h3>
           <div>
-            <a href="/" className={"footer-link"}>
+            <a href="https://google.com/forms" className={"footer-link"}>
               registration link
             </a>
           </div>
@@ -33,19 +33,19 @@ const Footer = () => {
         <div className={"space-y-2"}>
           <h3 className={"font-bold mb-4"}>Quick Links</h3>
           <div>
-            <a href="/logistics" className={"footer-link"}>
-              logistics
-            </a>
+            <Link href="/logistics">
+              <a className={"footer-link"}>logistics</a>
+            </Link>
           </div>
           <div>
-            <a href="/faq" className={"footer-link"}>
-              faq
-            </a>
+            <Link href="/faq">
+              <a className={"footer-link"}>faq</a>
+            </Link>
           </div>
           <div>
-            <a href="/about" className={"footer-link"}>
-              about
-            </a>
+            <Link href="/about">
+              <a className={"footer-link"}>about</a>
+            </Link>
           </div>
         </div>
       </div>
