@@ -5,11 +5,15 @@ import Blobs from "@/components/Blobs";
 
 const Logistics = () => {
   return (
-    <main>
+    <main className={"py-12"}>
       <Blobs />
       <div className={"relative"}>
         <Section>
           <Title>logistics</Title>
+          <p className={"mt-6"}>
+            The alGIRLithm programming contest will take place on October 23,
+            2021.
+          </p>
         </Section>
         <Section>
           <Subtitle>Registration</Subtitle>
@@ -23,11 +27,10 @@ const Logistics = () => {
             schedule here
           </p>
         </Section>
-
         <Section>
           <Subtitle>Contest Format</Subtitle>
           <p className={"text-xl"}>
-            allowed languages, number of problems, scoring
+            There will be two divisions: Novice and Advanced.
           </p>
         </Section>
       </div>

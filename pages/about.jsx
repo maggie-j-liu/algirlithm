@@ -14,16 +14,15 @@ const organizers = [
 
 const About = () => {
   return (
-    <main className={"bg-pink-50 min-h-screen"}>
+    <main className={"bg-pink-50 min-h-screen py-12"}>
       <Blobs />
       <div className={"relative"}>
         <Section>
           <Title className={"mb-4"}>about</Title>
           <p className={"text-xl font-medium"}>
-            mission statement Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Hic, a quod magni autem assumenda quidem ad at,
-            repellat ex voluptas totam quam et, laboriosam quasi aliquid
-            voluptatem libero necessitatibus alias.
+            alGIRLithm is a student-led organization working to inspire the next
+            generation of female computer scientists by making competitive
+            programming accessible to high school girls.
           </p>
         </Section>
         <Section>

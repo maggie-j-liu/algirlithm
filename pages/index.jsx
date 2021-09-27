@@ -14,7 +14,7 @@ const Home = () => {
         >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
-              date here
+              October 23, 2021
             </h2>
             <h1
               className={"text-6xl md:text-8xl font-extrabold text-primary-500"}

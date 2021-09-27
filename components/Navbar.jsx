@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../public/logo.png";
 const Navbar = () => {
   return (
     <nav
@@ -12,20 +14,22 @@ const Navbar = () => {
             "max-w-4xl w-full mx-auto flex items-center justify-between h-full text-white font-bold"
           }
         >
-          <div>
+          <div className={"pt-2"}>
             <Link href={"/"}>
-              <a>alGIRLithm</a>
+              <a>
+                <Image src={logo} height="40" width="245" />
+              </a>
             </Link>
           </div>
           <div className={"font-medium space-x-4"}>
             <Link href={"/logistics"}>
               <a>logistics</a>
             </Link>
-            <Link href={"/about"}>
-              <a>about</a>
-            </Link>
             <Link href={"/faq"}>
               <a>faq</a>
+            </Link>
+            <Link href={"/about"}>
+              <a>about</a>
             </Link>
           </div>
         </div>

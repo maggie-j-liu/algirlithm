@@ -24,7 +24,7 @@ const faq = [
 
 const FAQ = () => {
   return (
-    <main className={"bg-purple-50 min-h-screen"}>
+    <main className={"bg-purple-50 min-h-screen py-12"}>
       <Blobs />
       <div className={"relative"}>
         <Section>

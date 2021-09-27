@@ -20,4 +20,7 @@
     padding-bottom: 0.2em; /* fix descenders being cut off */
     margin-bottom: -0.2em;
   }
+  .footer-link {
+    @apply text-gray-300 hover:text-white hover:duration-150 duration-300;
+  }
 }
