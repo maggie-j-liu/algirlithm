@@ -1,7 +1,7 @@
 export const Title = ({ children, className }) => {
   return (
     <h1
-      className={`mt-16 text-6xl font-extrabold${
+      className={`mt-16 text-5xl sm:text-6xl font-extrabold${
         className ? ` ${className}` : ""
       }`}
     >

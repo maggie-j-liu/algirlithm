@@ -11,7 +11,7 @@ const Home = () => {
       <main>
         <section
           className={
-            "px-16 sm:px-20 md:px-24 pt-36 pb-28 2xl:pb-24 bg-primary-100"
+            "px-8 sm:px-20 md:px-24 pt-36 pb-28 2xl:pb-24 bg-primary-100"
           }
         >
           <div className={"w-full max-w-4xl mx-auto"}>
@@ -19,7 +19,9 @@ const Home = () => {
               October 23, 2021
             </h2>
             <h1
-              className={"text-6xl md:text-8xl font-extrabold text-primary-500"}
+              className={
+                "text-4xl sm:ext-6xl md:text-8xl font-extrabold text-primary-500"
+              }
             >
               al<span className={"font-black"}>GIRL</span>ithm.
             </h1>
@@ -48,7 +50,7 @@ const Home = () => {
             }
           />
         </div>
-        <section className={"px-16 sm:px-20 md:px-24"}>
+        <section className={"px-8 sm:px-20 md:px-24"}>
           <div
             className={
               "w-full max-w-4xl mx-auto py-16 flex gap-16 items-center"
@@ -61,7 +63,7 @@ const Home = () => {
                   alGIRLithm?
                 </span>
               </h2>
-              <p className={"text-xl leading-relaxed text-gray-600"}>
+              <p className={"text-lg sm:text-xl leading-relaxed text-gray-600"}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
                 laboriosam officiis amet accusantium, nobis, nam eveniet,
                 repellat eius animi porro nesciunt culpa magni. Consectetur
@@ -83,9 +85,6 @@ const Home = () => {
                 doloremque autem.
               </p>
             </div>
-            <div className={"h-96 w-80 bg-primary-400 flex-shrink-0 text-base"}>
-              some image
-            </div>
           </div>
         </section>
         <div
@@ -95,12 +94,12 @@ const Home = () => {
         />
         <section
           className={
-            "px-16 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-24"
+            "px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-24"
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
-            <div className={"grid grid-cols-2 gap-8"}>
+            <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
               <div
                 className={
                   "bg-secondary-800/80 text-primary-100 hover:bg-secondary-50/30 hover:text-secondary-800 duration-150 py-8 px-4 rounded-md shadow-lg hover:shadow-xl"
@@ -135,7 +134,7 @@ const Home = () => {
         />
         <section
           className={
-            "px-16 sm:px-20 md:px-24 bg-gradient-to-r from-secondary-200 to-primary-200 py-24 -mt-20 2xl:mt-0"
+            "px-8 sm:px-20 md:px-24 bg-gradient-to-r from-secondary-200 to-primary-200 py-24 -mt-20 2xl:mt-0"
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
@@ -145,7 +144,9 @@ const Home = () => {
             <p className={"text-xl text-center mb-8"}>
               Thank you to our amazing sponsors!
             </p>
-            <div className={"grid grid-cols-3 gap-8"}>
+            <div
+              className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"}
+            >
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
                 <p className={"text-center text-base"}>image</p>
                 <h3 className={"text-lg font-medium text-center"}>

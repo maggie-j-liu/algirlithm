@@ -4,7 +4,7 @@ const Footer = () => {
     <footer className={"bg-gray-900 text-white py-16 relative"}>
       <div
         className={
-          "w-full max-w-5xl px-16 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-x-4 gap-y-8"
+          "w-full max-w-5xl px-8 sm:px-16 mx-auto grid grid-cols-1 lg:grid-cols-4 gap-x-4 gap-y-8"
         }
       >
         <div>
