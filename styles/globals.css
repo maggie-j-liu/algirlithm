@@ -23,4 +23,7 @@
   .footer-link {
     @apply text-gray-300 hover:text-white hover:duration-150 duration-300;
   }
+  .link {
+    @apply font-semibold text-primary-800 hover:text-primary-700;
+  }
 }

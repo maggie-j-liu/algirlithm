@@ -13,7 +13,7 @@ const faq = [
     answer: "Answer",
   },
   {
-    question: "How do I use codeforces?",
+    question: "How do I use HackerRank?",
     answer: "Answer",
   },
   {

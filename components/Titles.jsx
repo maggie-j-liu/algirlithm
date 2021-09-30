@@ -13,3 +13,7 @@ export const Title = ({ children, className }) => {
 export const Subtitle = ({ children }) => {
   return <h2 className={"text-4xl font-medium mb-4"}>{children}</h2>;
 };
+
+export const SubSubtitle = ({ children }) => {
+  return <h3 className={"text-3xl font-medium mb-2 mt-4"}>{children}</h3>;
+};

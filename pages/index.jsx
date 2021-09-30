@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Section from "@/components/Section";
+import Prize from "@/components/Prize";
 
 const Home = () => {
   return (
@@ -64,25 +65,14 @@ const Home = () => {
                 </span>
               </h2>
               <p className={"text-lg sm:text-xl leading-relaxed text-gray-600"}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                laboriosam officiis amet accusantium, nobis, nam eveniet,
-                repellat eius animi porro nesciunt culpa magni. Consectetur
-                officiis unde quam laborum eius quasi! Quae, libero! Non, porro
-                mollitia, placeat ipsam eveniet repudiandae sint soluta veniam
-                accusamus ducimus suscipit omnis. Veniam quam obcaecati magni,
-                commodi animi earum laudantium porro, molestias quaerat minus
-                odio atque! Similique sint eos tempora commodi maiores odit
-                maxime atque ad? Eaque odit iste officiis harum recusandae
-                asperiores fugiat, dolores aliquam numquam unde molestiae ut
-                iusto quo! Porro odit autem exercitationem. Voluptatem soluta
-                sequi quod blanditiis voluptatum animi laboriosam harum vel,
-                ipsam molestias facilis atque temporibus rem aut, provident
-                mollitia voluptate quidem minus quas esse sint facere. Earum
-                quod fuga eveniet. Iste vitae facilis quibusdam! Debitis vero
-                possimus quaerat animi rem! Assumenda doloremque dolorem
-                aspernatur atque ipsam ratione? Dolore fuga commodi similique
-                tempore, eveniet labore dolorum quisquam nisi laboriosam
-                doloremque autem.
+                alGIRLithm is a student-led organization working to inspire the
+                next generation of female computer scientists by making
+                competitive programming accessible to high school girls.
+                alGIRLithm is a programming competition for high school girls.
+                Girls with all levels of experience in competitive programming
+                are encouraged to join! Participants can compete in teams of up
+                to 3 to solve problems with C++, Java, or Python. There are two
+                divisions that girls can compete in: Novice and Advanced.
               </p>
             </div>
           </div>
@@ -100,30 +90,12 @@ const Home = () => {
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
             <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
-              <div
-                className={
-                  "bg-secondary-800/80 text-primary-100 hover:bg-secondary-50/30 hover:text-secondary-800 duration-150 py-8 px-4 rounded-md shadow-lg hover:shadow-xl"
-                }
-              >
-                <h3 className={"text-xl font-medium"}>1st place</h3>
-                <p className={"text-center text-base"}>image / name of prize</p>
-              </div>
-              <div
-                className={
-                  "bg-secondary-800/80 text-primary-100 hover:bg-secondary-50/30 hover:text-secondary-800 duration-150 py-8 px-4 rounded-md shadow-lg hover:shadow-xl"
-                }
-              >
-                <h3 className={"text-xl font-medium"}>2nd place</h3>
-                <p className={"text-center text-base"}>image / name of prize</p>
-              </div>
-              <div
-                className={
-                  "bg-secondary-800/80 text-primary-100 hover:bg-secondary-50/30 hover:text-secondary-800 duration-150 py-8 px-4 rounded-md shadow-lg hover:shadow-xl"
-                }
-              >
-                <h3 className={"text-xl font-medium"}>3rd place</h3>
-                <p className={"text-center text-base"}>image / name of prize</p>
-              </div>
+              <Prize title={"1st place Novice"} body={"coming soon!"} />
+              <Prize title={"2nd place Novice"} body={"coming soon!"} />
+              <Prize title={"3rd place Novice"} body={"coming soon!"} />
+              <Prize title={"1st place Advanced"} body={"coming soon!"} />
+              <Prize title={"2nd place Advanced"} body={"coming soon!"} />
+              <Prize title={"3rd place Advanced"} body={"coming soon!"} />
             </div>
           </div>
         </section>
@@ -148,27 +120,12 @@ const Home = () => {
               className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"}
             >
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center text-base"}>image</p>
                 <h3 className={"text-lg font-medium text-center"}>
-                  sponsor name
-                </h3>
-              </div>
-              <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center text-base"}>image</p>
-                <h3 className={"text-lg font-medium text-center"}>
-                  sponsor name
-                </h3>
-              </div>
-              <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center text-base"}>image</p>
-                <h3 className={"text-lg font-medium text-center"}>
-                  sponsor name
-                </h3>
-              </div>
-              <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
-                <p className={"text-center text-base"}>image</p>
-                <h3 className={"text-lg font-medium text-center"}>
-                  sponsor name
+                  If you're interested in sponsoring our contest, send us an
+                  email at{" "}
+                  <a className={"link"} href="mailto:contact@algirlithm.org">
+                    contact@algirlithm.org
+                  </a>
                 </h3>
               </div>
             </div>
