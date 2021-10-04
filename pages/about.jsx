@@ -3,13 +3,17 @@ import Section from "@/components/Section";
 import Organizer from "@/components/Organizer";
 import { Title, Subtitle } from "@/components/Titles";
 import Blobs from "@/components/Blobs";
+import amy from "@/public/amy.jpeg";
+import maggie from "@/public/maggie.png";
+import melody from "@/public/melody.png";
+import nicole from "@/public/nicole.jpeg";
 
 const organizers = [
-  { name: "Amy Chang", role: "organizer" },
+  { name: "Amy Chang", role: "organizer", image: amy },
   { name: "Kelly Zhou", role: "organizer" },
-  { name: "Melody Yu", role: "organizer" },
-  { name: "Maggie Liu", role: "organizer" },
-  { name: "Nicole Xu", role: "organizer" },
+  { name: "Maggie Liu", role: "organizer", image: maggie },
+  { name: "Melody Yu", role: "organizer", image: melody },
+  { name: "Nicole Xu", role: "organizer", image: nicole },
   { name: "Tarushii Goel", role: "organizer" },
 ];
 
