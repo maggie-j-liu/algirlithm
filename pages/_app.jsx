@@ -1,10 +1,19 @@
 import "../styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
+import SEO from "@/components/SEO";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <SEO
+        title="alGIRLithm Programming Contest"
+        description="alGIRLithm is a programming competition for high school girls."
+        url=""
+        image="/algirlithm.png"
+        twitterCard="summary_large_image"
+      />
       <Navbar />
       <Component {...pageProps} />
       <Footer />

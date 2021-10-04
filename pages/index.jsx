@@ -1,14 +1,8 @@
-import Head from "next/head";
-import Section from "@/components/Section";
 import Prize from "@/components/Prize";
 
 const Home = () => {
   return (
     <div>
-      <Head>
-        <title>alGIRLithm</title>
-        <meta name="description" content="Algirlithm" />
-      </Head>
       <main>
         <section
           className={
