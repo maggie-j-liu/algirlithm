@@ -13,7 +13,9 @@ function MyApp({ Component, pageProps }) {
         url=""
         image="/algirlithm.png"
         twitterCard="summary_large_image"
-      />
+      >
+        <meta name="theme-color" content="#FB7185" />
+      </SEO>
       <Navbar />
       <Component {...pageProps} />
       <Footer />

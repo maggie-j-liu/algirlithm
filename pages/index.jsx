@@ -21,7 +21,7 @@ const Home = () => {
               al<span className={"font-black"}>GIRL</span>ithm.
             </h1>
             <h2 className={"text-2xl md:text-4xl mt-4"}>
-              A programming contest for high school girls...
+              A programming contest for high school girls.
             </h2>
             <button
               className={

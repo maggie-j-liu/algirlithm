@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const SEO = ({ title, description, url, image, twitterCard }) => {
+const SEO = ({ title, description, url, image, twitterCard, children }) => {
   return (
     <Head>
       {title && <title>{title}</title>}
@@ -32,6 +32,7 @@ const SEO = ({ title, description, url, image, twitterCard }) => {
       {twitterCard && (
         <meta name="twitter:card" content={twitterCard} key="twitter:card" />
       )}
+      {children}
     </Head>
   );
 };
