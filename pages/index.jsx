@@ -23,13 +23,14 @@ const Home = () => {
             <h2 className={"text-2xl md:text-4xl mt-4"}>
               A programming contest for high school girls.
             </h2>
-            <button
+            <a
               className={
-                "mt-8 text-xl font-medium bg-gradient-to-tr from-primary-400 to-primary-300 hover:from-primary-500 hover:to-primary-400 hover:scale-105 duration-150 px-6 py-3 rounded"
+                "block w-max mt-8 text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded"
               }
+              href="https://forms.gle/va4mPB3vHs3qzj3P6"
             >
               Register
-            </button>
+            </a>
           </div>
         </section>
         <div className={"-translate-y-10 2xl:translate-y-0"}>

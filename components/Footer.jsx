@@ -17,17 +17,30 @@ const Footer = () => {
         <div className={"space-y-2"}>
           <h3 className={"font-bold mb-4"}>Register</h3>
           <div>
-            <a href="https://google.com/forms" className={"footer-link"}>
+            <a
+              href="https://forms.gle/va4mPB3vHs3qzj3P6"
+              className={"footer-link"}
+            >
               registration link
             </a>
           </div>
         </div>
-        <div className={"space-y-2"}>
-          <h3 className={"font-bold mb-4"}>Contact Us</h3>
-          <div>
-            <a href="mailto:contact@algirlithm.org" className={"footer-link"}>
-              contact@algirlithm.org
-            </a>
+        <div className="space-y-8">
+          <div className={"space-y-2"}>
+            <h3 className={"font-bold mb-4"}>Contact Us</h3>
+            <div>
+              <a href="mailto:contact@algirlithm.org" className={"footer-link"}>
+                contact@algirlithm.org
+              </a>
+            </div>
+          </div>
+          <div className={"space-y-2"}>
+            <h3 className={"font-bold mb-4"}>Discord Server</h3>
+            <div>
+              <a className={"footer-link"} href="https://discord.gg/bqRBv3CfQr">
+                discord.gg/bqRBv3CfQr
+              </a>
+            </div>
           </div>
         </div>
         <div className={"space-y-2"}>
