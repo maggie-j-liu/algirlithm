@@ -58,16 +58,26 @@ const Home = () => {
                   alGIRLithm?
                 </span>
               </h2>
-              <p className={"text-lg sm:text-xl leading-relaxed text-gray-600"}>
-                alGIRLithm is a student-led organization working to inspire the
-                next generation of female computer scientists by making
-                competitive programming accessible to high school girls.
-                alGIRLithm is a programming competition for high school girls.
-                Girls with all levels of experience in competitive programming
-                are encouraged to join! Participants can compete in teams of up
-                to 3 to solve problems with C++, Java, or Python. There are two
-                divisions that girls can compete in: Novice and Advanced.
-              </p>
+              <div className="space-y-2 text-gray-700 text-lg sm:text-xl">
+                <p>
+                  alGIRLithm is a student-led organization working to inspire
+                  the next generation of female computer scientists by making
+                  competitive programming accessible to high school girls.
+                </p>
+                <p>
+                  We’re hosting a programming competition for high school girls.
+                  Girls with all levels of experience in competitive programming
+                  are encouraged to join!{" "}
+                </p>
+                <p>
+                  Participants can compete in teams of up to 3 to solve problems
+                  with C++, Java, or Python.
+                </p>
+                <p>
+                  There are two divisions that girls can compete in: Novice and
+                  Advanced.{" "}
+                </p>
+              </div>
             </div>
           </div>
         </section>

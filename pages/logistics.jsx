@@ -28,9 +28,7 @@ const Logistics = () => {
         </Section>
         <Section>
           <Subtitle>Schedule</Subtitle>
-          <p className={"text-xl leading-relaxed text-gray-600"}>
-            schedule here
-          </p>
+          <p className={"text-xl leading-relaxed"}>schedule here</p>
         </Section>
         <Section>
           <Subtitle>Contest Format</Subtitle>
@@ -55,6 +53,13 @@ const Logistics = () => {
           <p className={"text-xl"}>
             There will be two divisions: Novice and Advanced.
           </p>
+          <SubSubtitle>Rules</SubSubtitle>
+          <p>
+            Participants must be high school students (or younger) who identify
+            as female or non-binary. Underrepresented minorities and students of
+            low socioeconomic status are strongly encouraged to participate.
+          </p>
+          <p>Templates and searching online during the contest is allowed</p>
         </Section>
       </div>
     </main>
