@@ -1,3 +1,4 @@
+import { DISCORD_LINK, REGISTRATION_LINK } from "@/utils/constants";
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -17,10 +18,7 @@ const Footer = () => {
         <div className={"space-y-2"}>
           <h3 className={"font-bold mb-4"}>Register</h3>
           <div>
-            <a
-              href="https://forms.gle/va4mPB3vHs3qzj3P6"
-              className={"footer-link"}
-            >
+            <a href={REGISTRATION_LINK} className={"footer-link"}>
               registration link
             </a>
           </div>
@@ -37,7 +35,7 @@ const Footer = () => {
           <div className={"space-y-2"}>
             <h3 className={"font-bold mb-4"}>Discord Server</h3>
             <div>
-              <a className={"footer-link"} href="https://discord.gg/bqRBv3CfQr">
+              <a className={"footer-link"} href={DISCORD_LINK}>
                 discord.gg/bqRBv3CfQr
               </a>
             </div>

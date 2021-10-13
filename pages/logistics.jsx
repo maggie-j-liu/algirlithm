@@ -3,6 +3,7 @@ import Section from "@/components/Section";
 import { Title, Subtitle } from "@/components/Titles";
 import Blobs from "@/components/Blobs";
 import { SubSubtitle } from "@/components/Titles";
+import { REGISTRATION_LINK } from "@/utils/constants";
 
 const Logistics = () => {
   return (
@@ -20,7 +21,7 @@ const Logistics = () => {
           <Subtitle>Registration</Subtitle>
           <p className={"text-xl"}>
             Fill out{" "}
-            <a className={"link"} href="https://forms.gle/va4mPB3vHs3qzj3P6">
+            <a className={"link"} href={REGISTRATION_LINK}>
               this form
             </a>{" "}
             to register for the contest.

@@ -1,4 +1,5 @@
 import Prize from "@/components/Prize";
+import { DISCORD_LINK, REGISTRATION_LINK } from "@/utils/constants";
 import { SiDiscord } from "react-icons/si";
 
 const Home = () => {
@@ -29,13 +30,13 @@ const Home = () => {
                 className={
                   "block w-max text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
                 }
-                href="https://forms.gle/va4mPB3vHs3qzj3P6"
+                href={REGISTRATION_LINK}
               >
                 Register
               </a>
               <a
                 className="flex items-center gap-2 bg-white/75 hover:bg-white hover:duration-150 duration-300 px-4 py-1.5 rounded-2xl"
-                href="https://discord.gg/bqRBv3CfQr"
+                href={DISCORD_LINK}
               >
                 <SiDiscord className="w-8 h-8 text-primary-800" />
                 <span className="text-primary-900">
