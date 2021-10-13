@@ -1,4 +1,5 @@
 import Prize from "@/components/Prize";
+import { SiDiscord } from "react-icons/si";
 
 const Home = () => {
   return (
@@ -23,14 +24,25 @@ const Home = () => {
             <h2 className={"text-2xl md:text-4xl mt-4"}>
               A programming contest for high school girls.
             </h2>
-            <a
-              className={
-                "block w-max mt-8 text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded"
-              }
-              href="https://forms.gle/va4mPB3vHs3qzj3P6"
-            >
-              Register
-            </a>
+            <div className="flex items-center mt-8 gap-8">
+              <a
+                className={
+                  "block w-max text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
+                }
+                href="https://forms.gle/va4mPB3vHs3qzj3P6"
+              >
+                Register
+              </a>
+              <a
+                className="flex items-center gap-2 bg-white/75 hover:bg-white hover:duration-150 duration-300 px-4 py-1.5 rounded-2xl"
+                href="https://discord.gg/bqRBv3CfQr"
+              >
+                <SiDiscord className="w-8 h-8 text-primary-800" />
+                <span className="text-primary-900">
+                  Join our discord server!
+                </span>
+              </a>
+            </div>
           </div>
         </section>
         <div className={"-translate-y-10 2xl:translate-y-0"}>
@@ -55,7 +67,7 @@ const Home = () => {
             <div>
               <h2 className={"text-4xl font-medium mb-4"}>
                 What is{" "}
-                <span className={"text-primary-600 font-semibold"}>
+                <span className={"text-primary-600 font-bold"}>
                   alGIRLithm?
                 </span>
               </h2>
