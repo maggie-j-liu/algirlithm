@@ -36,11 +36,16 @@ const Logistics = () => {
           <Subtitle>Contest Format</Subtitle>
           <SubSubtitle>Divisions</SubSubtitle>
           <p>
-            Each contest contains 8 algorithmic problems of varying difficulty.  
-<ul class="list-disc">
-  <li>Novice (correlates to basic to USACO bronze to easy USACO silver) </li>
-  <li>Advanced (correlates to easy USACO silver to regular gold)   </li>
-</ul>
+            Each contest contains 8 algorithmic problems of varying difficulty.
+            <ul className="list-disc">
+              <li>
+                Novice (correlates to basic to USACO bronze to easy USACO
+                silver)
+              </li>
+              <li>
+                Advanced (correlates to easy USACO silver to regular gold)
+              </li>
+            </ul>
           </p>
           <SubSubtitle>Available Languages</SubSubtitle>
           <p>Java, C++, Python</p>
