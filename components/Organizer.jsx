@@ -1,5 +1,6 @@
 import Image from "next/image";
-const Organizer = ({ name, role, image }) => {
+
+const OrganizerCard = ({ name, role, image }) => {
   return (
     <div
       className={
@@ -26,6 +27,18 @@ const Organizer = ({ name, role, image }) => {
       {role && <p className={"text-center text-xl text-gray-400"}>{role}</p>}
     </div>
   );
+};
+
+const Organizer = ({ link, ...props }) => {
+  if (link) {
+    return (
+      <a href={link} target="_blank" rel="noreferrer">
+        <OrganizerCard {...props} />
+      </a>
+    );
+  } else {
+    return <OrganizerCard {...props} />;
+  }
 };
 
 export default Organizer;

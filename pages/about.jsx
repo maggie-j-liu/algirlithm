@@ -3,20 +3,27 @@ import Section from "@/components/Section";
 import Organizer from "@/components/Organizer";
 import { Title, Subtitle } from "@/components/Titles";
 import Blobs from "@/components/Blobs";
-import amy from "@/public/amy.jpeg";
-import kelly from "@/public/kelly.jpeg";
-import maggie from "@/public/maggie.png";
-import melody from "@/public/melody.png";
-import nicole from "@/public/nicole.jpeg";
-import tarushii from "@/public/tarushii.jpeg";
+import amy from "@/team/amy.jpeg";
+import kelly from "@/team/kelly.jpeg";
+import maggie from "@/team/maggie.png";
+import melody from "@/team/melody.png";
+import nicole from "@/team/nicole.jpeg";
+import tarushii from "@/team/tarushii.jpeg";
+import ryan from "@/team/ryan.png";
 
-const organizers = [
+const team = [
   { name: "Amy Chang", role: "organizer", image: amy },
   { name: "Kelly Zhou", role: "organizer", image: kelly },
   { name: "Maggie Liu", role: "organizer", image: maggie },
   { name: "Melody Yu", role: "organizer", image: melody },
   { name: "Nicole Xu", role: "organizer", image: nicole },
   { name: "Tarushii Goel", role: "organizer", image: tarushii },
+  {
+    name: "Ryan Chou",
+    role: "problem tester",
+    image: ryan,
+    link: "https://www.ryanchou.dev",
+  },
 ];
 
 const About = () => {
@@ -47,7 +54,7 @@ const About = () => {
               "mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6"
             }
           >
-            {organizers.map((person) => (
+            {team.map((person) => (
               <Organizer key={person.name} {...person} />
             ))}
           </div>
