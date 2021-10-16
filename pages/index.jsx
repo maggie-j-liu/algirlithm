@@ -107,7 +107,11 @@ const Home = () => {
         >
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
-            <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+            <div
+              className={
+                "grid grid-flow-col grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-8"
+              }
+            >
               <Prize title={"1st place Novice"} body={"coming soon!"} />
               <Prize title={"2nd place Novice"} body={"coming soon!"} />
               <Prize title={"3rd place Novice"} body={"coming soon!"} />
