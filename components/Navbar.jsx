@@ -23,6 +23,7 @@ const Navbar = () => {
                   height="40"
                   width="40"
                   alt="alGIRLithm logo"
+                  priority
                 />
                 <div className={"hidden sm:block pt-2"}>
                   <Image

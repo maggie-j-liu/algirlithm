@@ -1,6 +1,11 @@
 import Prize from "@/components/Prize";
+import Sponsor from "@/components/Sponsor";
 import { DISCORD_LINK, REGISTRATION_LINK } from "@/utils/constants";
 import { SiDiscord } from "react-icons/si";
+import aops from "@/public/aops.png";
+import wolfram from "@/public/wolfram.png";
+import replit from "@/public/replit.png";
+import cpi from "@/public/cpi.png";
 
 const Home = () => {
   return (
@@ -107,6 +112,24 @@ const Home = () => {
         >
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
+            <div className="flex flex-col gap-8 sm:flex-row mb-8">
+              <Prize
+                title={"All Participants"}
+                body={
+                  "All participants will be entered into a AoPS coupon raffle."
+                }
+                paragraphClass="text-left"
+                className="sm:w-1/2"
+              />
+              <Prize
+                title={"All Participants"}
+                body={
+                  "All participants will receive a one-month hacker plan on Repl.it."
+                }
+                paragraphClass="text-left"
+                className="sm:w-1/2"
+              />
+            </div>
             <div
               className={
                 "grid grid-flow-col grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-8"
@@ -138,9 +161,27 @@ const Home = () => {
             <p className={"text-xl text-center mb-8"}>
               Thank you to our amazing sponsors!
             </p>
-            <div
-              className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"}
-            >
+            <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+              <Sponsor
+                image={aops}
+                title="Art of Problem Solving"
+                link="https://artofproblemsolving.com"
+              />
+              <Sponsor
+                image={wolfram}
+                title="Wolfram"
+                link="https://wolfram.com"
+              />
+              <Sponsor
+                image={replit}
+                title="Repl.it"
+                link="https://replit.com"
+              />
+              <Sponsor
+                image={cpi}
+                title="Competitive Programming Initiative"
+                link="https://joincpi.org"
+              />
               <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
                 <h3 className={"text-lg font-medium text-center"}>
                   If you're interested in sponsoring our contest, send us an
