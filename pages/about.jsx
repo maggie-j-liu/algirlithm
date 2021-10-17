@@ -10,6 +10,7 @@ import melody from "@/team/melody.png";
 import nicole from "@/team/nicole.jpeg";
 import tarushii from "@/team/tarushii.jpeg";
 import ryan from "@/team/ryan.png";
+import nikhil from "@/team/nikhil.png";
 
 const team = [
   { name: "Amy Chang", role: "organizer", image: amy },
@@ -23,6 +24,12 @@ const team = [
     role: "problem tester",
     image: ryan,
     link: "https://www.ryanchou.dev",
+  },
+  {
+    name: "Nikhil Chatterjee",
+    role: "problem tester",
+    image: nikhil,
+    link: "https://nikhilchatterjee.com",
   },
 ];
 
