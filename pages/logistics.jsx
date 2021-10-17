@@ -14,7 +14,7 @@ const Logistics = () => {
           <Title>logistics</Title>
           <p className={"mt-6"}>
             The alGIRLithm programming contest will take place on October 23,
-            2021.
+            2021 from 4PM to 6PM EDT.
           </p>
         </Section>
         <Section>
@@ -57,12 +57,16 @@ const Logistics = () => {
           <p>Link to a sample problem</p>
           <SubSubtitle>Scoring system</SubSubtitle>
           <p>
-            Solutions are tested on a number of test cases; each correct test
-            case is worth an equal number of points Some problems may include
-            subtasks
+            Each problem is worth an equal number of points. Within a problem,
+            each correct test case is worth an equal number of points. Ties are
+            broken by the time of a team’s last correct submission.
           </p>
           <SubSubtitle>Teams</SubSubtitle>
-          <p>Up to 3 (share an account)</p>
+          <p>
+            Girls are allowed and encouraged to participate in teams of 3. Each
+            team shares one HackerRank account, which they will submit solutions
+            from.
+          </p>
           <p className={"text-xl"}>
             There will be two divisions: Novice and Advanced.
           </p>
@@ -72,7 +76,7 @@ const Logistics = () => {
             as female or non-binary. Underrepresented minorities and students of
             low socioeconomic status are strongly encouraged to participate.
           </p>
-          <p>Templates and searching online during the contest is allowed</p>
+          <p>Templates and searching online during the contest are allowed.</p>
         </Section>
       </div>
     </main>

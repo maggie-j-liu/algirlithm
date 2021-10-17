@@ -6,19 +6,45 @@ import { Title } from "@/components/Titles";
 const faq = [
   {
     question: "Is previous programming experience required?",
-    answer: "Answer",
+    answer: (
+      <>
+        Yes, you should have at least some prior programming experience in Java,
+        C++ or Python to be able to compete. If you have taken AP Computer
+        Science A, you should be well prepared to enter our Novice division!
+      </>
+    ),
   },
   {
     question: "What is competitive programming?",
-    answer: "Answer",
+    answer: (
+      <>
+        Competitive programming is a mind sport where programmers solve
+        well-defined problems within a time constraint. It’s a great way to
+        strengthen your coding and problem-solving skills while having fun!
+      </>
+    ),
   },
   {
     question: "How do I use HackerRank?",
-    answer: "Answer",
+    answer: (
+      <>
+        Make a shared account with your team on{" "}
+        <a
+          className="link"
+          href="https://hackerrank.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          HackerRank's website
+        </a>
+        . Every member should register for and submit a working solution to this
+        sample contest to make sure she is ready for the official competition!
+      </>
+    ),
   },
   {
     question: "Do I get help with debugging during the contest?",
-    answer: "Answer",
+    answer: <></>,
   },
 ];
 
@@ -30,7 +56,7 @@ const FAQ = () => {
         <Section>
           <Title className={"mb-4"}>faq</Title>
           <p>Some frequently asked questions.</p>
-          <div className={"mt-8 space-y-6"}>
+          <div className={"my-8 space-y-6"}>
             {faq.map((f) => (
               <div
                 key={f.question}
@@ -43,6 +69,28 @@ const FAQ = () => {
               </div>
             ))}
           </div>
+          <p>
+            For more information about competitive programming and contest
+            input/output, visit the{" "}
+            <a
+              className="link"
+              href="https://joincpi.org"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Competive Programming Initiative
+            </a>{" "}
+            and{" "}
+            <a
+              className="link"
+              href="https://usaco.guide"
+              target="_blank"
+              rel="noreferrer"
+            >
+              USACO Guide
+            </a>
+            .
+          </p>
         </Section>
       </div>
     </main>
