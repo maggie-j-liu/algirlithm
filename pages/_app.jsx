@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         title="alGIRLithm Programming Contest"
         description="alGIRLithm is a programming competition for high school girls."
         url=""
-        image="/algirlithm.png"
+        image="/ogimage.png"
         twitterCard="summary_large_image"
       >
         <meta name="theme-color" content="#FB7185" />
