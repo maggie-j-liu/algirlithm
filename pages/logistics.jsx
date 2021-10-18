@@ -29,7 +29,7 @@ const Logistics = () => {
         </Section>
         <Section>
           <Subtitle>Schedule</Subtitle>
-          <p className={"text-xl leading-relaxed"}>schedule here</p>
+          <p className={"text-xl leading-relaxed"}>coming soon!</p>
         </Section>
         <Section>
           <Subtitle>Contest Format</Subtitle>
@@ -54,7 +54,18 @@ const Logistics = () => {
           <SubSubtitle>Available Languages</SubSubtitle>
           <p>Java, C++, Python</p>
           <SubSubtitle>Contest platform - Hackerrank</SubSubtitle>
-          <p>Link to a sample problem</p>
+          <p>
+            Try out a sample problem{" "}
+            <a
+              className="link"
+              href="https://www.hackerrank.com/algirlithm-sample-contest"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
+            !
+          </p>
           <SubSubtitle>Scoring system</SubSubtitle>
           <p>
             Each problem is worth an equal number of points. Within a problem,

@@ -37,8 +37,16 @@ const faq = [
         >
           HackerRank's website
         </a>
-        . Every member should register for and submit a working solution to this
-        sample contest to make sure she is ready for the official competition!
+        . Every member should register for and submit a working solution to{" "}
+        <a
+          className="link"
+          href="https://www.hackerrank.com/algirlithm-sample-contest"
+          target="_blank"
+          rel="noreferrer"
+        >
+          this sample contest
+        </a>{" "}
+        to make sure she is ready for the official competition!
       </>
     ),
   },

@@ -11,6 +11,7 @@ import nicole from "@/team/nicole.jpeg";
 import tarushii from "@/team/tarushii.jpeg";
 import ryan from "@/team/ryan.png";
 import nikhil from "@/team/nikhil.png";
+import david from "@/team/david.jpeg";
 
 const team = [
   { name: "Amy Chang", role: "organizer", image: amy },
@@ -31,6 +32,7 @@ const team = [
     image: nikhil,
     link: "https://nikhilchatterjee.com",
   },
+  { name: "David Zhang", role: "problem tester", image: david },
 ];
 
 const About = () => {
@@ -69,8 +71,16 @@ const About = () => {
         <Section>
           <Subtitle>Contact Us</Subtitle>
           <p className={"text-xl"}>
-            If you would like to help out with organizing the contest, fill out
-            this form here.
+            If you would like to help out with organizing the contest, fill out{" "}
+            <a
+              className="link"
+              href="https://forms.gle/2bCPiCiPdA5Ezoi68"
+              target="_blank"
+              rel="noreferrer"
+            >
+              this form
+            </a>
+            .
           </p>
         </Section>
       </div>
