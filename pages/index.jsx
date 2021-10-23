@@ -2,10 +2,11 @@ import Prize from "@/components/Prize";
 import Sponsor from "@/components/Sponsor";
 import { DISCORD_LINK, REGISTRATION_LINK } from "@/utils/constants";
 import { SiDiscord } from "react-icons/si";
-import aops from "@/public/aops.png";
-import wolfram from "@/public/wolfram.png";
-import replit from "@/public/replit.png";
-import cpi from "@/public/cpi.png";
+import aops from "@/sponsors/aops.png";
+import wolfram from "@/sponsors/wolfram.png";
+import replit from "@/sponsors/replit.png";
+import cpi from "@/sponsors/cpi.png";
+import breakout_mentors from "@/sponsors/breakout_mentors.png";
 
 const Home = () => {
   return (
@@ -182,7 +183,17 @@ const Home = () => {
                 title="Competitive Programming Initiative"
                 link="https://joincpi.org"
               />
-              <div className={"bg-white py-8 px-4 rounded-md shadow-lg"}>
+              <Sponsor
+                image={breakout_mentors}
+                title="Breakout Mentors"
+                link="
+                https://breakoutmentors.com/usaco-competitive-programming-academy/"
+              />
+              <div
+                className={
+                  "bg-white py-8 px-4 rounded-md shadow-lg flex items-center"
+                }
+              >
                 <h3 className={"text-lg font-medium text-center"}>
                   If you're interested in sponsoring our contest, send us an
                   email at{" "}

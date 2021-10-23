@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Section from "@/components/Section";
 import Organizer from "@/components/Organizer";
 import { Title, Subtitle } from "@/components/Titles";
@@ -12,6 +11,7 @@ import tarushii from "@/team/tarushii.jpeg";
 import ryan from "@/team/ryan.png";
 import nikhil from "@/team/nikhil.png";
 import david from "@/team/david.jpeg";
+import claire from "@/team/claire.jpeg";
 
 const team = [
   { name: "Amy Chang", role: "organizer", image: amy },
@@ -33,6 +33,7 @@ const team = [
     link: "https://nikhilchatterjee.com",
   },
   { name: "David Zhang", role: "problem tester", image: david },
+  { name: "Claire Zhang", role: "problem tester", image: claire },
 ];
 
 const About = () => {
