@@ -9,7 +9,6 @@ import melody from "@/team/melody.png";
 import nicole from "@/team/nicole.jpeg";
 import tarushii from "@/team/tarushii.jpeg";
 import ryan from "@/team/ryan.png";
-import nikhil from "@/team/nikhil.png";
 import david from "@/team/david.jpeg";
 import claire from "@/team/claire.jpeg";
 
