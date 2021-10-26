@@ -26,12 +26,6 @@ const team = [
     image: ryan,
     link: "https://www.ryanchou.dev",
   },
-  {
-    name: "Nikhil Chatterjee",
-    role: "problem tester",
-    image: nikhil,
-    link: "https://nikhilchatterjee.com",
-  },
   { name: "David Zhang", role: "problem tester", image: david },
   { name: "Claire Zhang", role: "problem tester", image: claire },
 ];

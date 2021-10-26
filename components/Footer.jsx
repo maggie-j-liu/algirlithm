@@ -1,4 +1,8 @@
-import { DISCORD_LINK, REGISTRATION_LINK } from "@/utils/constants";
+import {
+  DISCORD_LINK,
+  DONATION_LINK,
+  REGISTRATION_LINK,
+} from "@/utils/constants";
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -15,12 +19,22 @@ const Footer = () => {
             </Link>
           </h3>
         </div>
-        <div className={"space-y-2"}>
-          <h3 className={"font-bold mb-4"}>Register</h3>
-          <div>
-            <a href={REGISTRATION_LINK} className={"footer-link"}>
-              registration link
-            </a>
+        <div className={"space-y-8"}>
+          <div className={"space-y-2"}>
+            <h3 className={"font-bold mb-4"}>Register</h3>
+            <div>
+              <a href={REGISTRATION_LINK} className={"footer-link"}>
+                registration link
+              </a>
+            </div>
+          </div>
+          <div className={"space-y-2"}>
+            <h3 className={"font-bold mb-4"}>Donate</h3>
+            <div>
+              <a href={DONATION_LINK} className={"footer-link"}>
+                donate here!
+              </a>
+            </div>
           </div>
         </div>
         <div className="space-y-8">

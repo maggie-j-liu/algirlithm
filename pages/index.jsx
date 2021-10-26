@@ -1,6 +1,10 @@
 import Prize from "@/components/Prize";
 import Sponsor from "@/components/Sponsor";
-import { DISCORD_LINK, REGISTRATION_LINK } from "@/utils/constants";
+import {
+  DISCORD_LINK,
+  DONATION_LINK,
+  REGISTRATION_LINK,
+} from "@/utils/constants";
 import { SiDiscord } from "react-icons/si";
 import aops from "@/sponsors/aops.png";
 import wolfram from "@/sponsors/wolfram.png";
@@ -31,15 +35,25 @@ const Home = () => {
             <h2 className={"text-2xl md:text-4xl mt-4"}>
               A programming contest for high school girls.
             </h2>
-            <div className="flex items-center mt-8 gap-8">
-              <a
-                className={
-                  "block w-max text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
-                }
-                href={REGISTRATION_LINK}
-              >
-                Register
-              </a>
+            <div className="flex flex-col md:flex-row items-start md:items-center mt-8 gap-4 md:gap-8">
+              <div className="flex items-center gap-4 md:gap-8">
+                <a
+                  className={
+                    "block w-max text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
+                  }
+                  href={REGISTRATION_LINK}
+                >
+                  Register
+                </a>
+                <a
+                  className={
+                    "block w-max text-xl bg-primary-200 hover:bg-primary-300 text-primary-900 font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
+                  }
+                  href={DONATION_LINK}
+                >
+                  Donate
+                </a>
+              </div>
               <a
                 className="flex items-center gap-2 bg-white/75 hover:bg-white hover:duration-150 duration-300 px-4 py-1.5 rounded-2xl"
                 href={DISCORD_LINK}
