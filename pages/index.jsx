@@ -150,12 +150,26 @@ const Home = () => {
                 "grid grid-flow-col grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-8"
               }
             >
-              <Prize title={"1st place Novice"} body={"coming soon!"} />
-              <Prize title={"2nd place Novice"} body={"coming soon!"} />
-              <Prize title={"3rd place Novice"} body={"coming soon!"} />
-              <Prize title={"1st place Advanced"} body={"coming soon!"} />
-              <Prize title={"2nd place Advanced"} body={"coming soon!"} />
-              <Prize title={"3rd place Advanced"} body={"coming soon!"} />
+              <Prize
+                title={"1st place Novice"}
+                body={"A $30 Amazon gift card for each person"}
+              />
+              <Prize
+                title={"2nd place Novice"}
+                body={"A $20 Amazon gift card for each person"}
+              />
+              <Prize
+                title={"3rd place Novice"}
+                body={"A $15 Amazon gift card for each person"}
+              />
+              <Prize
+                title={"1st place Advanced"}
+                body={"A $40 Amazon gift card for each person"}
+              />
+              <Prize
+                title={"2nd place Advanced"}
+                body={"A $30 Amazon gift card for each person"}
+              />
             </div>
           </div>
         </section>
