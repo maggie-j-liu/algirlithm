@@ -170,6 +170,10 @@ const Home = () => {
                 title={"2nd place Advanced"}
                 body={"A $30 Amazon gift card for each person"}
               />
+              <Prize
+                title={"Top 20 Contestants Overall"}
+                body={"Wolfram|Alpha Notebook Edition"}
+              />
             </div>
           </div>
         </section>
