@@ -50,10 +50,6 @@ const faq = [
       </>
     ),
   },
-  {
-    question: "Do I get help with debugging during the contest?",
-    answer: <></>,
-  },
 ];
 
 const FAQ = () => {
