@@ -28,10 +28,6 @@ const Logistics = () => {
           </p>
         </Section>
         <Section>
-          <Subtitle>Schedule</Subtitle>
-          <p className={"text-xl leading-relaxed"}>coming soon!</p>
-        </Section>
-        <Section>
           <Subtitle>Contest Format</Subtitle>
           <SubSubtitle>Divisions</SubSubtitle>
           <p>
