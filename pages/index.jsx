@@ -11,6 +11,7 @@ import wolfram from "@/sponsors/wolfram.png";
 import replit from "@/sponsors/replit.png";
 import cpi from "@/sponsors/cpi.png";
 import breakout_mentors from "@/sponsors/breakout_mentors.png";
+import elastic from "@/sponsors/elastic.png";
 
 const Home = () => {
   return (
@@ -218,8 +219,12 @@ const Home = () => {
               <Sponsor
                 image={breakout_mentors}
                 title="Breakout Mentors"
-                link="
-                https://breakoutmentors.com/usaco-competitive-programming-academy/"
+                link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
+              />
+              <Sponsor
+                image={elastic}
+                title="Elastic"
+                link="https://www.elastic.co"
               />
               <div
                 className={
