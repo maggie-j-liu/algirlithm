@@ -36,7 +36,10 @@ const Navbar = () => {
               </a>
             </Link>
           </div>
-          <div className={"font-medium space-x-4"}>
+          <div className={"text-sm sm:text-base font-medium space-x-4"}>
+            <Link href={"/results"}>
+              <a>results</a>
+            </Link>
             <Link href={"/logistics"}>
               <a>logistics</a>
             </Link>

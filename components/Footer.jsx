@@ -58,6 +58,11 @@ const Footer = () => {
         <div className={"space-y-2"}>
           <h3 className={"font-bold mb-4"}>Quick Links</h3>
           <div>
+            <Link href="/results">
+              <a className={"footer-link"}>results</a>
+            </Link>
+          </div>
+          <div>
             <Link href="/logistics">
               <a className={"footer-link"}>logistics</a>
             </Link>
