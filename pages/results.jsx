@@ -10,7 +10,18 @@ const Results = () => {
       <div className={"relative"}>
         <Section>
           <Title>results</Title>
-          <p className={"mt-6"}>Congratulations to everyone who competed!</p>
+          <p className={"mt-6"}>
+            Congratulations to everyone who competed! Please fill out{" "}
+            <a
+              href="https://forms.gle/qKgkVmg7cmpKLAW36"
+              target="_blank"
+              rel="noreferrer"
+              className="link"
+            >
+              this feedback form
+            </a>
+            ; we'd love to hear your feedback about the contest!
+          </p>
         </Section>
         <Section>
           <Subtitle>Problems</Subtitle>
