@@ -79,6 +79,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <div className={"text-center pt-16"}>
+        <h3>made by 
+          <a href="https://maggieliu.dev" className={"font-extrabold"}> Maggie Liu!</a>
+        </h3>
+      </div>
     </footer>
   );
 };
