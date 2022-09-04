@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
           <div className={"text-sm sm:text-base font-medium space-x-4"}>
             <Link href={"/results"}>
-              <a>results</a>
+              <a>2021 results</a>
             </Link>
             <Link href={"/logistics"}>
               <a>logistics</a>

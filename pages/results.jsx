@@ -9,7 +9,7 @@ const Results = () => {
       <Blobs />
       <div className={"relative"}>
         <Section>
-          <Title>results</Title>
+          <Title>2021 results</Title>
           <p className={"mt-6"}>
             Congratulations to everyone who competed! Please fill out{" "}
             <a

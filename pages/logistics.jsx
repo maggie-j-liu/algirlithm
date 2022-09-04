@@ -13,8 +13,8 @@ const Logistics = () => {
         <Section>
           <Title>logistics</Title>
           <p className={"mt-6"}>
-            The alGIRLithm programming contest will take place on October 30,
-            2021 from 4PM to 6PM EDT.
+            The alGIRLithm programming contest will take place on October 22,
+            2022 from 4PM to 6PM EDT.
           </p>
         </Section>
         <Section>

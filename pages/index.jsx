@@ -24,7 +24,7 @@ const Home = () => {
         >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
-              October 30, 2021
+              October 22, 2022
             </h2>
             <h1
               className={
@@ -128,7 +128,11 @@ const Home = () => {
         >
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
-            <div className="flex flex-col gap-8 sm:flex-row mb-8">
+            <Prize
+                title={""}
+                body={"Coming soon!"}
+              />
+            {/*<div className="flex flex-col gap-8 sm:flex-row mb-8">
               <Prize
                 title={"All Participants"}
                 body={
@@ -175,7 +179,7 @@ const Home = () => {
                 title={"Top 20 Contestants Overall"}
                 body={"Wolfram|Alpha Notebook Edition"}
               />
-            </div>
+            </div>*/}
           </div>
         </section>
         <div
@@ -192,10 +196,15 @@ const Home = () => {
             <h2 className={"text-4xl font-medium mb-4 text-center"}>
               Sponsors
             </h2>
-            <p className={"text-xl text-center mb-8"}>
+            {/*<p className={"text-xl text-center mb-8"}>
               Thank you to our amazing sponsors!
-            </p>
-            <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+        </p>*/}
+              <Sponsor
+                image={cpi}
+                title="Competitive Programming Initiative"
+                link="https://joincpi.org"
+              />
+            {/*<div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
               <Sponsor
                 image={aops}
                 title="Art of Problem Solving"
@@ -239,7 +248,7 @@ const Home = () => {
                   </a>
                 </h3>
               </div>
-            </div>
+              </div>*/}
           </div>
         </section>
       </main>

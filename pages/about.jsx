@@ -3,11 +3,12 @@ import Organizer from "@/components/Organizer";
 import { Title, Subtitle } from "@/components/Titles";
 import Blobs from "@/components/Blobs";
 import amy from "@/team/amy.jpeg";
-import kelly from "@/team/kelly.jpeg";
-import maggie from "@/team/maggie.png";
+import kelly from "@/team/kelly.png";
 import melody from "@/team/melody.png";
 import nicole from "@/team/nicole.jpeg";
 import tarushii from "@/team/tarushii.jpeg";
+import crystal from "@/team/crystal.png";
+import juheon from "@/team/juheon.png";
 import ryan from "@/team/ryan.png";
 import david from "@/team/david.jpeg";
 import claire from "@/team/claire.jpeg";
@@ -15,10 +16,11 @@ import claire from "@/team/claire.jpeg";
 const team = [
   { name: "Amy Chang", role: "organizer", image: amy },
   { name: "Kelly Zhou", role: "organizer", image: kelly },
-  { name: "Maggie Liu", role: "organizer", image: maggie },
   { name: "Melody Yu", role: "organizer", image: melody },
   { name: "Nicole Xu", role: "organizer", image: nicole },
   { name: "Tarushii Goel", role: "organizer", image: tarushii },
+  { name: "Crystal Yang", role: "organizer", image: crystal },
+  { name: "Juheon Rhee", role: "organizer", image: juheon },
   {
     name: "Ryan Chou",
     role: "problem tester",
