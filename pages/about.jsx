@@ -12,6 +12,7 @@ import juheon from "@/team/juheon.png";
 import ryan from "@/team/ryan.png";
 import david from "@/team/david.jpeg";
 import claire from "@/team/claire.jpeg";
+import maggie from "@/team//maggie.png";
 
 const team = [
   { name: "Amy Chang", role: "organizer", image: amy },
@@ -21,14 +22,16 @@ const team = [
   { name: "Tarushii Goel", role: "organizer", image: tarushii },
   { name: "Crystal Yang", role: "organizer", image: crystal },
   { name: "Juheon Rhee", role: "organizer", image: juheon },
-  {
+  /*{
     name: "Ryan Chou",
     role: "problem tester",
     image: ryan,
     link: "https://www.ryanchou.dev",
-  },
-  { name: "David Zhang", role: "problem tester", image: david },
-  { name: "Claire Zhang", role: "problem tester", image: claire },
+  },*/
+];
+
+const past_team = [
+  { name: "Maggie Liu", role: "organizer", image: maggie},
 ];
 
 const About = () => {
@@ -60,6 +63,18 @@ const About = () => {
             }
           >
             {team.map((person) => (
+              <Organizer key={person.name} {...person} />
+            ))}
+          </div>
+        </Section>
+        <Section>
+          <Subtitle>Past Organizers</Subtitle>
+          <div
+            className={
+              "mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6"
+            }
+          >
+            {past_team.map((person) => (
               <Organizer key={person.name} {...person} />
             ))}
           </div>
