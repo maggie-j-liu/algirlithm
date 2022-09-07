@@ -55,7 +55,7 @@ const About = () => {
           <Subtitle>Organizers</Subtitle>
           <p>
             Our contest is organized by students from high schools all around
-            the country.
+            the world.
           </p>
           <div
             className={

@@ -123,16 +123,12 @@ const Home = () => {
         />
         <section
           className={
-            "px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-24"
+            "px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-0" //2xl:pb-24
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
-            <Prize
-                title={""}
-                body={"Coming soon!"}
-              />
-            {/*<div className="flex flex-col gap-8 sm:flex-row mb-8">
+            <div className="flex flex-col gap-8 sm:flex-row mb-8">
               <Prize
                 title={"All Participants"}
                 body={
@@ -142,9 +138,9 @@ const Home = () => {
                 className="sm:w-1/2"
               />
               <Prize
-                title={"All Participants"}
+                title={"Top 15 Contestants From Each Division"}
                 body={
-                  "All participants will receive a one-month hacker plan on Repl.it."
+                  "One year subscription of Wolfram|One Personal Edition and Wolfram|Alpha Pro"
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
@@ -156,6 +152,10 @@ const Home = () => {
               }
             >
               <Prize
+                title={""}
+                body={"Novice and advanced division prizes coming soon!"}
+              />
+              {/*<Prize
                 title={"1st place Novice"}
                 body={"A $30 Amazon gift card for each person"}
               />
@@ -178,8 +178,8 @@ const Home = () => {
               <Prize
                 title={"Top 20 Contestants Overall"}
                 body={"Wolfram|Alpha Notebook Edition"}
-              />
-            </div>*/}
+              />*/}
+            </div>
           </div>
         </section>
         <div
@@ -196,15 +196,10 @@ const Home = () => {
             <h2 className={"text-4xl font-medium mb-4 text-center"}>
               Sponsors
             </h2>
-            {/*<p className={"text-xl text-center mb-8"}>
+            <p className={"text-xl text-center mb-8"}>
               Thank you to our amazing sponsors!
-        </p>*/}
-              <Sponsor
-                image={cpi}
-                title="Competitive Programming Initiative"
-                link="https://joincpi.org"
-              />
-            {/*<div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+            </p>
+            <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
               <Sponsor
                 image={aops}
                 title="Art of Problem Solving"
@@ -216,24 +211,9 @@ const Home = () => {
                 link="https://wolfram.com"
               />
               <Sponsor
-                image={replit}
-                title="Repl.it"
-                link="https://replit.com"
-              />
-              <Sponsor
                 image={cpi}
                 title="Competitive Programming Initiative"
                 link="https://joincpi.org"
-              />
-              <Sponsor
-                image={breakout_mentors}
-                title="Breakout Mentors"
-                link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
-              />
-              <Sponsor
-                image={elastic}
-                title="Elastic"
-                link="https://www.elastic.co"
               />
               <div
                 className={
@@ -248,7 +228,22 @@ const Home = () => {
                   </a>
                 </h3>
               </div>
-              </div>*/}
+              {/*<Sponsor
+                image={replit}
+                title="Repl.it"
+                link="https://replit.com"
+              />
+              <Sponsor
+                image={breakout_mentors}
+                title="Breakout Mentors"
+                link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
+              />
+              <Sponsor
+                image={elastic}
+                title="Elastic"
+                link="https://www.elastic.co"
+              />*/}
+              </div>
           </div>
         </section>
       </main>
