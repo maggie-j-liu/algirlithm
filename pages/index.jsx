@@ -12,6 +12,8 @@ import replit from "@/sponsors/replit.png";
 import cpi from "@/sponsors/cpi.png";
 import breakout_mentors from "@/sponsors/breakout_mentors.png";
 import elastic from "@/sponsors/elastic.png";
+import jdoodle from "@/sponsors/jdoodle.png"
+import stickerGiant from "@/sponsors/stickerGiant.png"
 
 const Home = () => {
   return (
@@ -201,6 +203,21 @@ const Home = () => {
             </p>
             <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
               <Sponsor
+                image={jdoodle}
+                title="JDoodle"
+                link="https://www.jdoodle.com"
+              />
+              <Sponsor
+                image={elastic}
+                title="Elastic"
+                link="https://www.elastic.co"
+              />
+              <Sponsor
+                image={stickerGiant}
+                title="StickerGiant"
+                link="https://www.stickergiant.com/event-coupons?utm_source=website&utm_medium=event"
+              />
+              <Sponsor
                 image={aops}
                 title="Art of Problem Solving"
                 link="https://artofproblemsolving.com"
@@ -237,11 +254,6 @@ const Home = () => {
                 image={breakout_mentors}
                 title="Breakout Mentors"
                 link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
-              />
-              <Sponsor
-                image={elastic}
-                title="Elastic"
-                link="https://www.elastic.co"
               />*/}
               </div>
           </div>
