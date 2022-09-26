@@ -1,5 +1,6 @@
 import Prize from "@/components/Prize";
 import Sponsor from "@/components/Sponsor";
+import Schedule from "@/components/Schedule"
 import {
   DISCORD_LINK,
   DONATION_LINK,
@@ -45,6 +46,8 @@ const Home = () => {
                     "block w-max text-xl bg-primary-500 hover:bg-primary-600 text-white font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
                   }
                   href={REGISTRATION_LINK}
+                  target="_blank"
+                  link="noreferrer"
                 >
                   Register
                 </a>
@@ -53,6 +56,8 @@ const Home = () => {
                     "block w-max text-xl bg-primary-200 hover:bg-primary-300 text-primary-900 font-semibold hover:scale-105 hover:duration-150 duration-300 px-6 py-3 rounded-lg"
                   }
                   href={DONATION_LINK}
+                  target="_blank"
+                  link="noreferrer"
                 >
                   Donate
                 </a>
@@ -60,6 +65,8 @@ const Home = () => {
               <a
                 className="flex items-center gap-2 bg-white/75 hover:bg-white hover:duration-150 duration-300 px-4 py-1.5 rounded-2xl"
                 href={DISCORD_LINK}
+                target="_blank"
+                link="noreferrer"
               >
                 <SiDiscord className="w-8 h-8 text-primary-800" />
                 <span className="text-primary-900">
@@ -118,14 +125,61 @@ const Home = () => {
             </div>
           </div>
         </section>
+        {/* */}
         <div
           className={
-            "bg-gradient-to-r from-primary-400 to-secondary-400 h-24 w-full -skew-y-3 2xl:hidden translate-y-10"
+            "bg-gradient-to-r from-primary-300 to-primary-200 h-24 w-full -skew-y-3 2xl:hidden translate-y-10"
           }
         />
         <section
           className={
-            "px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-0" //2xl:pb-24
+            "px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-300 to-primary-200 pt-24 pb-36" //2xl:pb-24
+          }
+        >
+          <div className={"max-w-4xl w-full mx-auto pl-8 md:pl-0"}>
+            <h2 className={"text-4xl font-medium mb-4 text-white"}>Schedule</h2>
+            <h4 className={"text-lg font-medium mb-4 text-white"}>*all times are in est</h4>
+            <div className={"flex flex-col justify-start lg:flex-row"}>
+              {/*friday*/}
+              <div className={"flex flex-col lg:pr-48"}>
+                <h2 className={"text-3xl font-medium my-4 text-white"}>Friday 10/21</h2>
+                <Schedule
+                  time={"8:30PM - 9:00PM"}
+                  event={"Opening Ceremony"}
+                />
+                <div className={"mb-8 border-l-4 border-primary-500 px-4 py-2"}>
+                  <h4 className={"text-lg font-medium text-white"}>9:00PM - 9:30PM</h4>
+                  <h3 className={"text-xl font-medium text-white"}>Keynote Speaker: <a href="https://ceciliaaragonauthor.com" target="_blank" rel="noreferrer" className={"underline"}>Dr. Cecilia Aragon</a></h3>
+                </div>
+              </div>
+              {/*saturaday*/}
+              <div className={"flex flex-col"}>
+                <h2 className={"text-3xl font-medium my-4 text-white"}>Saturday 10/22</h2>
+                <Schedule
+                  time={"4:00PM - 6:00PM"}
+                  event={"Competition"}
+                />
+                <Schedule
+                  time={"8:30PM - 9:00PM"}
+                  event={"Closing Ceremony"}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          className={
+            "bg-gradient-to-r from-primary-300 to-primary-200 h-24 w-full -skew-y-3 2xl:hidden -translate-y-10"
+          }
+        />{/* */}
+        <div
+          className={
+            "bg-gradient-to-r from-primary-400 to-secondary-400 h-24 w-full -skew-y-3 2xl:hidden -translate-y-10"
+          }
+        />
+        <section
+          className={
+            "-mt-20 px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-0" //2xl:pb-24
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
