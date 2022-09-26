@@ -23,7 +23,7 @@ const Footer = () => {
           <div className={"space-y-2"}>
             <h3 className={"font-bold mb-4"}>Register</h3>
             <div>
-              <a href={REGISTRATION_LINK} className={"footer-link"} target="_blank" link="noreferrer">
+              <a href={REGISTRATION_LINK} className={"footer-link"} target="_blank" rel="noreferrer">
                 registration link
               </a>
             </div>
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className={"space-y-2"}>
             <h3 className={"font-bold mb-4"}>Donate</h3>
             <div>
-              <a href={DONATION_LINK} className={"footer-link"} target="_blank" link="noreferrer">
+              <a href={DONATION_LINK} className={"footer-link"} target="_blank" rel="noreferrer">
                 donate here!
               </a>
             </div>
@@ -49,7 +49,7 @@ const Footer = () => {
           <div className={"space-y-2"}>
             <h3 className={"font-bold mb-4"}>Discord Server</h3>
             <div>
-              <a className={"footer-link"} href={DISCORD_LINK} target="_blank" link="noreferrer"> 
+              <a className={"footer-link"} href={DISCORD_LINK} target="_blank" rel="noreferrer"> 
                 discord.gg/bqRBv3CfQr
               </a>
             </div>

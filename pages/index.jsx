@@ -47,7 +47,7 @@ const Home = () => {
                   }
                   href={REGISTRATION_LINK}
                   target="_blank"
-                  link="noreferrer"
+                  rel="noreferrer"
                 >
                   Register
                 </a>
@@ -57,7 +57,7 @@ const Home = () => {
                   }
                   href={DONATION_LINK}
                   target="_blank"
-                  link="noreferrer"
+                  rel="noreferrer"
                 >
                   Donate
                 </a>
@@ -66,7 +66,7 @@ const Home = () => {
                 className="flex items-center gap-2 bg-white/75 hover:bg-white hover:duration-150 duration-300 px-4 py-1.5 rounded-2xl"
                 href={DISCORD_LINK}
                 target="_blank"
-                link="noreferrer"
+                rel="noreferrer"
               >
                 <SiDiscord className="w-8 h-8 text-primary-800" />
                 <span className="text-primary-900">
