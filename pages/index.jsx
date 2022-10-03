@@ -156,6 +156,10 @@ const Home = () => {
               <div className={"flex flex-col"}>
                 <h2 className={"text-3xl font-medium my-4 text-white"}>Saturday 10/22</h2>
                 <Schedule
+                  time={"1:00PM - 2:00PM"}
+                  event={"Elastic Kibana Workshop"}
+                />
+                <Schedule
                   time={"4:00PM - 6:00PM"}
                   event={"Competition"}
                 />
@@ -179,16 +183,16 @@ const Home = () => {
         />
         <section
           className={
-            "-mt-20 px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-0" //2xl:pb-24
+            "-mt-20 px-8 sm:px-20 md:px-24 bg-gradient-to-r from-primary-400 to-secondary-400 pt-24 pb-36 2xl:pb-24"
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
-            <div className="flex flex-col gap-8 sm:flex-row mb-8">
+            <div className="flex flex-col gap-8 sm:flex-row mb-16">
               <Prize
                 title={"All Participants"}
                 body={
-                  "All participants will be entered into a AoPS coupon raffle."
+                  "Will be entered into a AoPS coupon raffle + receive free alGIRLithm stickers"
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
@@ -196,7 +200,7 @@ const Home = () => {
               <Prize
                 title={"Top 15 Contestants From Each Division"}
                 body={
-                  "One year subscription of Wolfram|One Personal Edition and Wolfram|Alpha Pro"
+                  "Will receive a one year subscription of Wolfram|One Personal Edition and Wolfram|Alpha Pro"
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
@@ -208,33 +212,29 @@ const Home = () => {
               }
             >
               <Prize
-                title={""}
-                body={"Novice and advanced division prizes coming soon!"}
-              />
-              {/*<Prize
                 title={"1st place Novice"}
-                body={"A $30 Amazon gift card for each person"}
+                body={"An Anker Portable Charger + $10 Amazon gift card for each person"}
               />
               <Prize
                 title={"2nd place Novice"}
-                body={"A $20 Amazon gift card for each person"}
-              />
-              <Prize
-                title={"3rd place Novice"}
                 body={"A $15 Amazon gift card for each person"}
               />
               <Prize
+                title={"3rd place Novice"}
+                body={"A $10 Amazon gift card for each person"}
+              />
+              <Prize
                 title={"1st place Advanced"}
-                body={"A $40 Amazon gift card for each person"}
+                body={"A Mechanical Keyboard + $10 Amazon gift card for each person"}
               />
               <Prize
                 title={"2nd place Advanced"}
-                body={"A $30 Amazon gift card for each person"}
+                body={"A $25 Amazon gift card for each person"}
               />
               <Prize
-                title={"Top 20 Contestants Overall"}
-                body={"Wolfram|Alpha Notebook Edition"}
-              />*/}
+                title={"3rd place Advanced"}
+                body={"A $20 Amazon gift card for each person"}
+              />
             </div>
           </div>
         </section>
@@ -256,6 +256,11 @@ const Home = () => {
               Thank you to our amazing sponsors!
             </p>
             <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+              <Sponsor
+                image={breakout_mentors}
+                title="Breakout Mentors"
+                link="https://breakoutmentors.com"
+              />
               <Sponsor
                 image={jdoodle}
                 title="JDoodle"
