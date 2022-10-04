@@ -259,7 +259,7 @@ const Home = () => {
               <Sponsor
                 image={breakout_mentors}
                 title="Breakout Mentors"
-                link="https://breakoutmentors.com"
+                link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
               />
               <Sponsor
                 image={jdoodle}
