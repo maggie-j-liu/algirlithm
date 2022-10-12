@@ -230,7 +230,7 @@ const Home = () => {
               />
               <Prize
                 title={"2nd place Advanced"}
-                body={"An MSI Vigor GK30 RGB Keyboard for each person"}
+                body={"A MSI Vigor GK30 RGB Keyboard for each person"}
               />
               <Prize
                 title={"3rd place Advanced"}
