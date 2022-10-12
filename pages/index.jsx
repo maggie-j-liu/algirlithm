@@ -15,6 +15,7 @@ import breakout_mentors from "@/sponsors/breakout_mentors.png";
 import elastic from "@/sponsors/elastic.png";
 import jdoodle from "@/sponsors/jdoodle.png"
 import stickerGiant from "@/sponsors/stickerGiant.png"
+import recursiveDragon from "@/sponsors/recursive_dragon.png"
 
 const Home = () => {
   return (
@@ -192,7 +193,7 @@ const Home = () => {
               <Prize
                 title={"All Participants"}
                 body={
-                  "Will be entered into a AoPS coupon raffle + receive free alGIRLithm stickers"
+                  "Will receive free alGIRLithm stickers and be entered into a raffle for AoPS coupons, an Apple Airtag, and a Hydro Flask"
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
@@ -213,27 +214,27 @@ const Home = () => {
             >
               <Prize
                 title={"1st place Novice"}
-                body={"An Anker Portable Charger + $10 Amazon gift card for each person"}
-              />
-              <Prize
-                title={"2nd place Novice"}
-                body={"A $15 Amazon gift card for each person"}
-              />
-              <Prize
-                title={"3rd place Novice"}
-                body={"A $10 Amazon gift card for each person"}
-              />
-              <Prize
-                title={"1st place Advanced"}
-                body={"A Mechanical Keyboard + $10 Amazon gift card for each person"}
-              />
-              <Prize
-                title={"2nd place Advanced"}
                 body={"A $25 Amazon gift card for each person"}
               />
               <Prize
-                title={"3rd place Advanced"}
+                title={"2nd place Novice"}
                 body={"A $20 Amazon gift card for each person"}
+              />
+              <Prize
+                title={"3rd place Novice"}
+                body={"A $15 Amazon gift card for each person"}
+              />
+              <Prize
+                title={"1st place Advanced"}
+                body={"A Fujifilm Instax Mini 11 for each person"}
+              />
+              <Prize
+                title={"2nd place Advanced"}
+                body={"An MSI Vigor GK30 RGB Keyboard for each person"}
+              />
+              <Prize
+                title={"3rd place Advanced"}
+                body={"An Anker Portable Charger for each person"}
               />
             </div>
           </div>
@@ -256,6 +257,11 @@ const Home = () => {
               Thank you to our amazing sponsors!
             </p>
             <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+              <Sponsor
+                image={recursiveDragon}
+                title="Recursive Dragon"
+                link="https://www.recursivedragon.com"
+              />
               <Sponsor
                 image={breakout_mentors}
                 title="Breakout Mentors"
