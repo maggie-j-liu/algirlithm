@@ -16,6 +16,7 @@ import elastic from "@/sponsors/elastic.png";
 import jdoodle from "@/sponsors/jdoodle.png"
 import stickerGiant from "@/sponsors/stickerGiant.png"
 import recursiveDragon from "@/sponsors/recursive_dragon.png"
+import xcamp from "@/sponsors/xcamp.png"
 
 const Home = () => {
   return (
@@ -257,6 +258,11 @@ const Home = () => {
               Thank you to our amazing sponsors!
             </p>
             <div className={"grid grid-cols-1 sm:grid-cols-2 gap-8"}>
+              <Sponsor
+                image={xcamp}
+                title="X-Camp"
+                link="https://x-camp.academy/#/"
+              />
               <Sponsor
                 image={recursiveDragon}
                 title="Recursive Dragon"
