@@ -9,6 +9,7 @@ import nicole from "@/team/nicole.jpeg";
 import tarushii from "@/team/tarushii.jpeg";
 import crystal from "@/team/crystal.png";
 import juheon from "@/team/juheon.png";
+import logo from "@/team/logo.png"
 import ryan from "@/team/ryan.png";
 import david from "@/team/david.jpeg";
 import claire from "@/team/claire.jpeg";
@@ -22,6 +23,7 @@ const team = [
   { name: "Tarushii Goel", role: "organizer", image: tarushii },
   { name: "Crystal Yang", role: "organizer", image: crystal },
   { name: "Juheon Rhee", role: "organizer", image: juheon },
+  { name: "Maria Chrysafis", role: "organizer", image: logo },
   /*{
     name: "Ryan Chou",
     role: "problem tester",
