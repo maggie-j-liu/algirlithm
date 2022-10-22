@@ -49,6 +49,17 @@ const Logistics = () => {
           </div>
           <SubSubtitle>Available Languages</SubSubtitle>
           <p>Java, C++, Python</p>
+          <br/>
+          <p>Time Limits For Each Language:</p>
+          <div className="prose prose-lg text-black-500 mx-auto lg:px-8">
+            <ul className="list-disc">
+              <li>Java - 4s</li>
+              <li>C++ - 2s</li>
+              <li>Python - 10s</li>
+            </ul>
+          </div>
+          <br/>
+          <h1>*all languages have a 512mb memory limit</h1>
           <SubSubtitle>Contest platform - Hackerrank</SubSubtitle>
           <p>
             Try out a sample problem{" "}

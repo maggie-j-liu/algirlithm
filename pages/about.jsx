@@ -24,13 +24,21 @@ const team = [
   { name: "Crystal Yang", role: "organizer", image: crystal },
   { name: "Juheon Rhee", role: "organizer", image: juheon },
   { name: "Maria Chrysafis", role: "organizer", image: logo },
-  /*{
+];
+
+const problem_testers = [
+  {
     name: "Ryan Chou",
     role: "problem tester",
     image: ryan,
     link: "https://www.ryanchou.dev",
-  },*/
-];
+  },
+  {
+    name: "Claire Zhang",
+    role: "problem tester",
+    image: claire
+  },
+]
 
 const past_team = [
   { name: "Maggie Liu", role: "organizer", image: maggie},
@@ -65,6 +73,18 @@ const About = () => {
             }
           >
             {team.map((person) => (
+              <Organizer key={person.name} {...person} />
+            ))}
+          </div>
+        </Section>
+        <Section>
+          <Subtitle>Problem Testers</Subtitle>
+          <div
+            className={
+              "mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6"
+            }
+          >
+            {problem_testers.map((person) => (
               <Organizer key={person.name} {...person} />
             ))}
           </div>
