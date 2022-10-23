@@ -9,7 +9,7 @@ const Results = () => {
       <Blobs />
       <div className={"relative"}>
         <Section>
-          <Title>2021 results</Title>
+          <Title>2022 results</Title>
           <p className={"mt-6"}>
             Congratulations to everyone who competed! Please fill out{" "}
             <a
@@ -30,14 +30,14 @@ const Results = () => {
             HackerRank contests:{" "}
             <a
               className="link"
-              href="https://www.hackerrank.com/algirlithm-novice-division"
+              href="https://www.hackerrank.com/contests/algirlithm-2022-novice/challenges"
             >
               Novice
             </a>
             ,{" "}
             <a
               className="link"
-              href="https://www.hackerrank.com/algirlithm-advanced-division"
+              href="https://www.hackerrank.com/contests/algirlithm-2022-advanced/challenges"
             >
               Advanced
             </a>
@@ -49,15 +49,15 @@ const Results = () => {
           <p>Here are the top 3 teams from each division.</p>
           <SubSubtitle>Novice Division</SubSubtitle>
           <ol className={"text-lg list-decimal list-inside"}>
-            <li>Shamiya Lin, Prisha Singh, Nithika Carthikeyan</li>
-            <li>Trisha Sabadra</li>
-            <li>Eliana Wang, Michelle Gao, Amber Tien</li>
+            <li>Jessica J., Julia W., Viola X.</li>
+            <li>Amy S., Elaine X., Isabella S.</li>
+            <li>Justine T.</li>
           </ol>
           <SubSubtitle>Advanced Division</SubSubtitle>
           <ol className={"text-lg list-decimal list-inside"}>
-            <li>Maria Chrysafis</li>
-            <li>Lauren Ji</li>
-            <li>Sahithi Morla, Priyanka Sadagopan</li>
+            <li>Ketevan T., Nino C.</li>
+            <li>Charlotte L.</li>
+            <li>Trisha S., Ryka C. Anisha R.</li>
           </ol>
         </Section>
       </div>
