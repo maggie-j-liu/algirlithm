@@ -54,6 +54,8 @@ const Results = () => {
             <li>Amy S., Elaine X., Isabella S.</li>
             <li>Justine T.</li>
           </ol>
+          <br/>
+          <h2>*“Prison Break” test data was invalid, and was not counted in the final scores. We apologize for the inconvenience!</h2>
           <SubSubtitle>Advanced Division</SubSubtitle>
           <ol className={"text-lg list-decimal list-inside"}>
             <li>Ketevan T., Nino C.</li>
