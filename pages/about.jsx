@@ -9,21 +9,15 @@ import nicole from "@/team/nicole.jpeg";
 import tarushii from "@/team/tarushii.jpeg";
 import crystal from "@/team/crystal.png";
 import juheon from "@/team/juheon.png";
-import logo from "@/team/logo.png"
+import logo from "@/team/logo.png";
 import ryan from "@/team/ryan.png";
 import david from "@/team/david.jpeg";
 import claire from "@/team/claire.jpeg";
 import maggie from "@/team//maggie.png";
 
 const team = [
-  { name: "Amy Chang", role: "organizer", image: amy },
-  { name: "Kelly Zhou", role: "organizer", image: kelly },
   { name: "Melody Yu", role: "organizer", image: melody },
-  { name: "Nicole Xu", role: "organizer", image: nicole },
-  { name: "Tarushii Goel", role: "organizer", image: tarushii },
   { name: "Crystal Yang", role: "organizer", image: crystal },
-  { name: "Juheon Rhee", role: "organizer", image: juheon },
-  { name: "Maria Chrysafis", role: "organizer", image: logo },
 ];
 
 const problem_testers = [
@@ -36,12 +30,36 @@ const problem_testers = [
   {
     name: "Claire Zhang",
     role: "problem tester",
-    image: claire
+    image: claire,
   },
-]
+];
+
+const problem_writers = [
+  {
+    name: "Nino (Nintsi) Chkhaidze",
+    role: "problem writer",
+    image: logo,
+  },
+  {
+    name: "Jenna Lee",
+    role: "problem writer/outreach",
+    image: logo,
+  },
+  {
+    name: "Trisha Sabadra",
+    role: "problem writer",
+    image: logo,
+  },
+];
 
 const past_team = [
-  { name: "Maggie Liu", role: "organizer", image: maggie},
+  { name: "Maggie Liu", role: "organizer", image: maggie },
+  { name: "Amy Chang", role: "organizer", image: amy },
+  { name: "Kelly Zhou", role: "organizer", image: kelly },
+  { name: "Nicole Xu", role: "organizer", image: nicole },
+  { name: "Tarushii Goel", role: "organizer", image: tarushii },
+  { name: "Juheon Rhee", role: "organizer", image: juheon },
+  { name: "Maria Chrysafis", role: "organizer", image: logo },
 ];
 
 const About = () => {
@@ -78,7 +96,16 @@ const About = () => {
           </div>
         </Section>
         <Section>
-          <Subtitle>Problem Testers</Subtitle>
+          <Subtitle>Team</Subtitle>
+          <div
+            className={
+              "mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6"
+            }
+          >
+            {problem_writers.map((person) => (
+              <Organizer key={person.name} {...person} />
+            ))}
+          </div>
           <div
             className={
               "mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6"
