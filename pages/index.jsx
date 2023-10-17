@@ -1,6 +1,6 @@
 import Prize from "@/components/Prize";
 import Sponsor from "@/components/Sponsor";
-import Schedule from "@/components/Schedule"
+import Schedule from "@/components/Schedule";
 import {
   DISCORD_LINK,
   DONATION_LINK,
@@ -13,10 +13,10 @@ import replit from "@/sponsors/replit.png";
 import cpi from "@/sponsors/cpi.png";
 import breakout_mentors from "@/sponsors/breakout_mentors.png";
 import elastic from "@/sponsors/elastic.png";
-import jdoodle from "@/sponsors/jdoodle.png"
-import stickerGiant from "@/sponsors/stickerGiant.png"
-import recursiveDragon from "@/sponsors/recursive_dragon.png"
-import xcamp from "@/sponsors/xcamp.png"
+import jdoodle from "@/sponsors/jdoodle.png";
+import stickerGiant from "@/sponsors/stickerGiant.png";
+import recursiveDragon from "@/sponsors/recursive_dragon.png";
+import xcamp from "@/sponsors/xcamp.png";
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
         >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
-              October 22, 2022
+              November 11, 2023
             </h2>
             <h1
               className={
@@ -140,35 +140,18 @@ const Home = () => {
         >
           <div className={"max-w-4xl w-full mx-auto pl-8 md:pl-0"}>
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Schedule</h2>
-            <h4 className={"text-lg font-medium mb-4 text-white"}>*all times are in est</h4>
+            <h4 className={"text-lg font-medium mb-4 text-white"}>
+              *all times are in est
+            </h4>
             <div className={"flex flex-col justify-start lg:flex-row"}>
-              {/*friday*/}
-              <div className={"flex flex-col lg:pr-48"}>
-                <h2 className={"text-3xl font-medium my-4 text-white"}>Friday 10/21</h2>
-                <Schedule
-                  time={"8:30PM - 9:00PM"}
-                  event={"Opening Ceremony"}
-                />
-                <div className={"mb-8 border-l-4 border-primary-500 px-4 py-2"}>
-                  <h4 className={"text-lg font-medium text-white"}>9:00PM - 9:30PM</h4>
-                  <h3 className={"text-xl font-medium text-white"}>Keynote Speaker: <a href="https://ceciliaaragonauthor.com" target="_blank" rel="noreferrer" className={"underline"}>Dr. Cecilia Aragon</a></h3>
-                </div>
-              </div>
               {/*saturaday*/}
               <div className={"flex flex-col"}>
-                <h2 className={"text-3xl font-medium my-4 text-white"}>Saturday 10/22</h2>
-                <Schedule
-                  time={"1:00PM - 2:00PM"}
-                  event={"Elastic Kibana Workshop"}
-                />
-                <Schedule
-                  time={"4:00PM - 6:00PM"}
-                  event={"Competition"}
-                />
-                <Schedule
-                  time={"8:30PM - 9:00PM"}
-                  event={"Closing Ceremony"}
-                />
+                <h2 className={"text-3xl font-medium my-4 text-white"}>
+                  Saturday 11/11
+                </h2>
+                <Schedule time={"3:00PM ET"} event={"Opening Ceremony"} />
+                <Schedule time={"4:00PM - 6:00PM ET"} event={"Contest"} />
+                <Schedule time={"8:30PM ET"} event={"Awards"} />
               </div>
             </div>
           </div>
@@ -177,7 +160,8 @@ const Home = () => {
           className={
             "bg-gradient-to-r from-primary-300 to-primary-200 h-24 w-full -skew-y-3 2xl:hidden -translate-y-10"
           }
-        />{/* */}
+        />
+        {/* */}
         <div
           className={
             "bg-gradient-to-r from-primary-400 to-secondary-400 h-24 w-full -skew-y-3 2xl:hidden -translate-y-10"
@@ -192,9 +176,9 @@ const Home = () => {
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
             <div className="flex flex-col gap-8 sm:flex-row mb-16">
               <Prize
-                title={"All Participants"}
+                title={"Disclaimer"}
                 body={
-                  "Will receive free alGIRLithm stickers and be entered into a raffle for AoPS coupons, an Apple Airtag, and a Hydro Flask"
+                  "The following are last year's prizes. This year's prizes will be updated soon!"
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
@@ -326,7 +310,7 @@ const Home = () => {
                 title="Breakout Mentors"
                 link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
               />*/}
-              </div>
+            </div>
           </div>
         </section>
       </main>
