@@ -13,8 +13,8 @@ const Logistics = () => {
         <Section>
           <Title>logistics</Title>
           <p className={"mt-6"}>
-            The alGIRLithm programming contest will take place on October 22,
-            2022 from 4PM to 6PM EDT.
+            The alGIRLithm programming contest will take place on November 11,
+            2023 from 4PM to 6PM ET.
           </p>
         </Section>
         <Section>
@@ -49,7 +49,7 @@ const Logistics = () => {
           </div>
           <SubSubtitle>Available Languages</SubSubtitle>
           <p>Java, C++, Python</p>
-          <br/>
+          <br />
           <p>Time Limits For Each Language:</p>
           <div className="prose prose-lg text-black-500 mx-auto lg:px-8">
             <ul className="list-disc">
@@ -58,7 +58,7 @@ const Logistics = () => {
               <li>Python - 10s</li>
             </ul>
           </div>
-          <br/>
+          <br />
           <h1>*all languages have a 512mb memory limit</h1>
           <SubSubtitle>Contest platform - Hackerrank</SubSubtitle>
           <p>
