@@ -176,17 +176,17 @@ const Home = () => {
             <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
             <div className="flex flex-col gap-8 sm:flex-row mb-16">
               <Prize
-                title={"Disclaimer"}
+                title={"All attendees"}
                 body={
-                  "The following are last year's prizes. This year's prizes will be updated soon!"
+                  "Free InterviewCake course access, XYZ domain."
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
               />
               <Prize
-                title={"Top 15 Contestants From Each Division"}
+                title={"Raffle Prizes"}
                 body={
-                  "Will receive a one year subscription of Wolfram|One Personal Edition and Wolfram|Alpha Pro"
+                  "Polaroid camera, $20 Desmos store gift card"
                 }
                 paragraphClass="text-left"
                 className="sm:w-1/2"
@@ -199,27 +199,27 @@ const Home = () => {
             >
               <Prize
                 title={"1st place Novice"}
-                body={"A $25 Amazon gift card for each person"}
+                body={"$25 per person + $20 Desmos store gift card"}
               />
               <Prize
                 title={"2nd place Novice"}
-                body={"A $20 Amazon gift card for each person"}
+                body={" $15 per person"}
               />
               <Prize
                 title={"3rd place Novice"}
-                body={"A $15 Amazon gift card for each person"}
+                body={"4 AoPS coupons for $25 each"}
               />
               <Prize
                 title={"1st place Advanced"}
-                body={"A Fujifilm Instax Mini 11 for each person"}
+                body={"MSI Vigor GK30 RGB Keyboard for each winning member"}
               />
               <Prize
                 title={"2nd place Advanced"}
-                body={"A MSI Vigor GK30 RGB Keyboard for each person"}
+                body={"$20 per person"}
               />
               <Prize
                 title={"3rd place Advanced"}
-                body={"An Anker Portable Charger for each person"}
+                body={"$15 per person"}
               />
             </div>
           </div>
