@@ -32,7 +32,7 @@ const Logistics = () => {
           <SubSubtitle>Divisions</SubSubtitle>
           <p>
             {" "}
-            Each contest contains 8 algorithmic problems of varying difficulty.
+            Each contest contains 6-7 algorithmic problems of varying difficulty.
           </p>
 
           <div className="prose prose-lg text-black-500 mx-auto lg:px-8">
