@@ -14,6 +14,9 @@ import ryan from "@/team/ryan.png";
 import david from "@/team/david.jpeg";
 import claire from "@/team/claire.jpeg";
 import maggie from "@/team//maggie.png";
+import jenna from "@/team/jenna.jpg";
+import nino from "@/team/nino.jpg";
+import trisha from "@/team/trisha.jpg";
 
 const team = [
   { name: "Melody Yu", role: "organizer", image: melody },
@@ -36,19 +39,19 @@ const problem_testers = [
 
 const problem_writers = [
   {
-    name: "Nino (Nintsi) Chkhaidze",
-    role: "problem writer",
-    image: logo,
-  },
-  {
     name: "Jenna Lee",
     role: "problem writer/outreach",
-    image: logo,
+    image: jenna,
+  },
+  {
+    name: "Nino (Nintsi) Chkhaidze",
+    role: "problem writer",
+    image: nino,
   },
   {
     name: "Trisha Sabadra",
     role: "problem writer",
-    image: logo,
+    image: trisha,
   },
 ];
 

@@ -17,6 +17,9 @@ import jdoodle from "@/sponsors/jdoodle.png";
 import stickerGiant from "@/sponsors/stickerGiant.png";
 import recursiveDragon from "@/sponsors/recursive_dragon.png";
 import xcamp from "@/sponsors/xcamp.png";
+import desmos from "@/sponsors/desmos.png";
+import interviewcake from "@/sponsors/interviewcake.png";
+import xyz from "@/sponsors/xyz.png";
 
 const Home = () => {
   return (
@@ -39,7 +42,7 @@ const Home = () => {
               al<span className={"font-black"}>GIRL</span>ithm.
             </h1>
             <h2 className={"text-2xl md:text-4xl mt-4"}>
-              A programming contest for high school girls.
+              A programming contest for girls and non-binary students.
             </h2>
             <div className="flex flex-col md:flex-row items-start md:items-center mt-8 gap-4 md:gap-8">
               <div className="flex items-center gap-4 md:gap-8">
@@ -199,7 +202,7 @@ const Home = () => {
             >
               <Prize
                 title={"1st place Novice"}
-                body={"$25 per person + $20 Desmos store gift card"}
+                body={"$25 per person"}
               />
               <Prize
                 title={"2nd place Novice"}
@@ -248,19 +251,24 @@ const Home = () => {
                 link="https://x-camp.academy/#/"
               />
               <Sponsor
-                image={recursiveDragon}
-                title="Recursive Dragon"
-                link="https://www.recursivedragon.com"
-              />
-              <Sponsor
-                image={breakout_mentors}
-                title="Breakout Mentors"
-                link="https://breakoutmentors.com/usaco-competitive-programming-academy/"
+                image={interviewcake}
+                title="Interview Cake"
+                link="https://www.interviewcake.com/"
               />
               <Sponsor
                 image={jdoodle}
                 title="JDoodle"
                 link="https://www.jdoodle.com"
+              />
+              <Sponsor
+                image={desmos}
+                title="Desmos"
+                link="https://www.desmos.com/"
+              />
+              <Sponsor
+                image={xyz}
+                title="xyz"
+                link="https://gen.xyz/"
               />
               <Sponsor
                 image={elastic}
@@ -276,11 +284,6 @@ const Home = () => {
                 image={aops}
                 title="Art of Problem Solving"
                 link="https://artofproblemsolving.com"
-              />
-              <Sponsor
-                image={wolfram}
-                title="Wolfram"
-                link="https://wolfram.com"
               />
               <Sponsor
                 image={cpi}
