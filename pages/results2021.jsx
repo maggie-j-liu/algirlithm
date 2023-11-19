@@ -10,18 +10,7 @@ const Results = () => {
       <div className={"relative"}>
         <Section>
           <Title>2021 results</Title>
-          <p className={"mt-6"}>
-            Congratulations to everyone who competed! Please fill out{" "}
-            <a
-              href="https://forms.gle/pbMUPq4egf1Smwa87"
-              target="_blank"
-              rel="noreferrer"
-              className="link"
-            >
-              this feedback form
-            </a>
-            ; we'd love to hear your feedback about the contest!
-          </p>
+          
         </Section>
         <Section>
           <Subtitle>Problems</Subtitle>

@@ -10,9 +10,18 @@ const Results = () => {
       <Blobs />
       <div className={"relative"}>
         <Section>
-          <Title>2022 results</Title>
+          <Title>2023 results</Title>
           <p className={"mt-6"}>
-            Congratulations to everyone who competed!
+            Congratulations to everyone who competed! Please fill out{" "}
+            <a
+              href="https://forms.gle/SEFHpjyq4D7jQBqy9"
+              target="_blank"
+              rel="noreferrer"
+              className="link"
+            >
+              this feedback form
+            </a>
+            ; we'd love to hear your feedback about the contest!
           </p>
         </Section>
         <Section>
@@ -22,14 +31,14 @@ const Results = () => {
             HackerRank contests:{" "}
             <a
               className="link"
-              href="https://www.hackerrank.com/contests/algirlithm-2022-novice/challenges"
+              href="https://www.hackerrank.com/contests/algirlithm-2023-novice/challenges"
             >
               Novice
             </a>
             ,{" "}
             <a
               className="link"
-              href="https://www.hackerrank.com/contests/algirlithm-2022-advanced/challenges"
+              href="https://www.hackerrank.com/contests/algirlithm-2023-advanced/challenges"
             >
               Advanced
             </a>
@@ -38,29 +47,38 @@ const Results = () => {
         </Section>
         <Section>
           <Subtitle>Results</Subtitle>
-          <p>Here are the top 3 teams from each division.</p>
+          <p>Here are the top 3 teams from each division; congratulations! </p>
+          
           <SubSubtitle>Novice Division</SubSubtitle>
           <ol className={"text-lg list-decimal list-inside"}>
-            <li>Jessica J., Julia W., Viola X.</li>
-            <li>Amy S., Elaine X., Isabella S.</li>
-            <li>Justine T.</li>
+            <li>Aadhya Sharma, Prisha Singh, Ananya Butala</li>
+            <li>Emma Kim, Jasmin Kim, Dahlia Pan</li>
+            <li>Samantha Rodriguez, Haley David, Sydney Cooper</li>
           </ol>
           <br/>
-          <h2>*“Prison Break” test data was invalid, and was not counted in the final scores. We apologize for the inconvenience!</h2>
           <SubSubtitle>Advanced Division</SubSubtitle>
           <ol className={"text-lg list-decimal list-inside"}>
-            <li>Ketevan T., Nino C.</li>
-            <li>Charlotte L.</li>
-            <li>Trisha S., Ryka C. Anisha R.</li>
+            <li>Charlotte Li, Azalea Li</li>
+            <li>Kaihui Luo, Grace Li, Veronica Chen</li>
+            <li>Justine Tang </li>
           </ol>
         </Section>
         <Section>
+
           <p className={"mt-6"}>
             Click {" "}
+            <Link href={"/results2022"}>
+              <a className="link text-primary-500 font-semibold">here </a>
+            </Link>
+            to view the 2022 results.
+          </p>
+
+          <p className={"mt-6"}>
+            You may also click {" "}
             <Link href={"/results2021"}>
               <a className="link text-primary-500 font-semibold">here </a>
             </Link>
-            to view the 2021 results!
+            to view the 2021 results.
           </p>
         </Section>
       </div>
