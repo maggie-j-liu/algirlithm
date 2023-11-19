@@ -10,7 +10,7 @@ const Results = () => {
       <Blobs />
       <div className={"relative"}>
         <Section>
-          <Title>2022 results</Title>
+          <Title>2023 results</Title>
           <p className={"mt-6"}>
             Congratulations to everyone who competed! Please fill out{" "}
             <a
@@ -70,15 +70,15 @@ const Results = () => {
             <Link href={"/results2022"}>
               <a className="link text-primary-500 font-semibold">here </a>
             </Link>
-            to view the 2022 results!
+            to view the 2022 results.
           </p>
 
           <p className={"mt-6"}>
-            Click {" "}
+            You may also click {" "}
             <Link href={"/results2021"}>
               <a className="link text-primary-500 font-semibold">here </a>
             </Link>
-            to view the 2021 results!
+            to view the 2021 results.
           </p>
         </Section>
       </div>
