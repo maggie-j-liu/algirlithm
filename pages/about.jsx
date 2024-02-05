@@ -17,6 +17,7 @@ import maggie from "@/team//maggie.png";
 import jenna from "@/team/jenna.jpg";
 import nino from "@/team/nino.jpg";
 import trisha from "@/team/trisha.jpg";
+import amys from "@/team/amys.png";
 
 const team = [
   { name: "Melody Yu", role: "organizer", image: melody },
@@ -34,6 +35,11 @@ const problem_testers = [
     name: "Claire Zhang",
     role: "problem tester",
     image: claire,
+  },
+  {
+    name: "Amy Sun",
+    role: "problem tester",
+    image: amys,
   },
 ];
 
